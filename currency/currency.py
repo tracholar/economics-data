@@ -8,13 +8,12 @@ API : http://data.eastmoney.com/DataCenter_V3/Chart/cjsj/China.ashx?isxml=false&
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data.csv', sep='\t', skiprows=1, names=['mon', 'm2', 'a', 'b', 'm1', 'c', 'd', 'm0', 'e','f'])
+df = pd.read_csv('data.csv', sep='\t')
 
-df = df.sort_values(by='mon')
-cols = ['m2', 'm1', 'm0']
-df = df.set_index('mon')[cols]
+df = df.sort_values(by='月份')
+df = df.set_index('月份')
 
-df.plot(grid='on', figsize = (10,6))
+df[['M2数量（亿元）', 'M1数量（亿元）', 'M0数量（亿元）']].plot(grid='on', figsize = (12,6))
 f = plt.gcf()
 f.savefig('data.svg')
 

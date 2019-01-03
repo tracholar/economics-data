@@ -42,3 +42,4 @@ fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><
 
 fp.write(open('data.svg').read())
 fp.write( md_table(df) )
+fp.close()

@@ -5,4 +5,4 @@
 数据格式一般以JSON, csv格式存储
 
 - 货币 [html](https://tracholar.github.io/economics-data/currency/data.html) [svg](https://tracholar.github.io/economics-data/currency/data.svg) [csv](https://tracholar.github.io/economics-data/currency/data.csv)
-- [利率](/interest)
+- [Shibor 利率](/shibor) [html](https://tracholar.github.io/economics-data/shibor/data.html) [svg](https://tracholar.github.io/economics-data/shibor/data.svg)

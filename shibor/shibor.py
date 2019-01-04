@@ -31,10 +31,15 @@ df[['隔夜-5日均值', '1W-5日均值', '1M-5日均值', '1Y-5日均值']].plo
 fig = plt.gcf()
 fig.savefig('data.svg')
 
+df[['隔夜-5日均值', '1W-5日均值', '2W-5日均值', '1M-5日均值', '1Y-5日均值']][-365:].plot(grid='on', figsize = (12,6))
+fig = plt.gcf()
+fig.savefig('data_short.svg')
+
 
 html = df.reset_index().sort_values(by='日期', ascending=False).to_html(index=False)
 
 with open('data.html', 'w') as fp:
+    fp.write(open('data_short.svg').read())
     fp.write(open('data.svg').read())
     fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><style ' \
              'type="text/css">' \

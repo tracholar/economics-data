@@ -19,19 +19,7 @@ f.savefig('data.svg')
 
 
 def md_table(df):
-    sb = '<table><thead><tr><td>时间</td>'
-    cols = df.columns
-    for col in cols:
-        sb += '<th>' + col + '</th>'
-    sb += '</tr></thead><tbody>'
-    for row in df.iterrows():
-        sb += '<tr>'
-        sb += '<td>' + str(row[0]) + '</td>'
-        for c in cols:
-            sb += '<td>' + str(row[1][c]) + '</td>'
-        sb += '</tr>'
-    sb += '</tbody></table>'
-    return sb
+    return df.to_html(index=False).encode('utf-8', 'ignore')
 
 fp = open('data.html', 'w')
 fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><style ' \
@@ -41,5 +29,5 @@ fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><
          '</style>')
 
 fp.write(open('data.svg').read())
-fp.write( md_table(df) )
+fp.write( md_table(df.reset_index().sort_values(by='月份', ascending=False)) )
 fp.close()

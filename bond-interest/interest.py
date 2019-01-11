@@ -1,6 +1,6 @@
 #coding:utf-8
 """
-数据来源: http://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery
+数据来源: http://yield.chinabond.com.cn/cbweb-pbc-web/pbc/showHistory?locale=cn_ZH
 
 """
 

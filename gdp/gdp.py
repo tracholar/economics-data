@@ -28,7 +28,9 @@ f.savefig('gdp.svg')
 gdp_html = gdp.to_html(index=False)
 
 gdp_inc = (gdp_sort / gdp_sort.shift(1) - 1)*100
-gdp_inc[['国内生产总值(亿元)']][-20:].plot(grid='on', figsize=(10, 6))
+gdp_inc = gdp_inc[['国内生产总值(亿元)']][-20:]
+gdp_inc.names = ['同比增长']
+gdp_inc.plot(grid='on', figsize=(10, 6), style='o-')
 f = plt.gcf()
 f.savefig('gdp_inc.svg')
 

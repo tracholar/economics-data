@@ -33,6 +33,14 @@ plt.title(u'中债国债收益率曲线')
 f = plt.gcf()
 f.savefig('data2.svg')
 
+df_plt3 = df_plt.set_index('日期')
+df_plt3 = df_plt3['10年'] - df_plt3['3月']
+df_plt3.name = '10年 - 3月'
+df_plt3.to_frame().reset_index().sort_values(by='日期').set_index('日期').plot(figsize=(12, 5), grid='on')
+plt.title(u'中债国债收益率利差')
+f = plt.gcf()
+f.savefig('data-delta.svg')
+
 html = df.to_html(index=False).encode('utf-8', 'ignore')
 
 with open('data.html', 'w') as fp:
@@ -41,6 +49,7 @@ with open('data.html', 'w') as fp:
              'table {border-collapse: collapse;}' \
              'th, td {border: 1px solid;}' \
              '</style>')
+    fp.write(open('data-delta.svg').read())
     fp.write(open('data.svg').read())
     fp.write(open('data2.svg').read())
     fp.write(html)

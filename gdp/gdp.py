@@ -22,6 +22,11 @@ html = df.to_html(index=False)
 
 gdp = pd.read_csv('gdp.csv')
 gdp_sort = gdp.sort_values(by='时间').set_index('时间')
+(gdp_sort[['第一产业增加值(亿元)','第二产业增加值(亿元)','第三产业增加值(亿元)']].apply(lambda x: x/gdp_sort['国内生产总值(亿元)'])).plot.bar(stacked=True, figsize=(12, 5), grid='on')
+plt.title(u'GDP各产业结构')
+f = plt.gcf()
+f.savefig('gdp-struct.svg')
+
 gdp_sort[-30:].plot(grid='on', figsize=(10, 6))
 f = plt.gcf()
 f.savefig('gdp.svg')
@@ -29,8 +34,9 @@ gdp_html = gdp.to_html(index=False)
 
 gdp_inc = (gdp_sort / gdp_sort.shift(1) - 1)*100
 gdp_inc = gdp_inc[['国内生产总值(亿元)']][-20:]
-gdp_inc.names = ['同比增长']
+gdp_inc.columns = ['同比增长']
 gdp_inc.plot(grid='on', figsize=(10, 6), style='o-')
+plt.title(u'名义GDP年增长率')
 f = plt.gcf()
 f.savefig('gdp_inc.svg')
 
@@ -43,6 +49,7 @@ with open('data.html', 'w') as fp:
     fp.write(open('data.svg').read())
     fp.write(open('gdp.svg').read())
     fp.write(open('gdp_inc.svg').read())
+    fp.write(open('gdp-struct.svg').read())
     fp.write(gdp_html.encode('utf-8', 'ignore'))
     fp.write(html.encode('utf-8', 'ignore'))
 

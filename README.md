@@ -8,3 +8,5 @@
 - [Shibor 利率](/shibor) [html](https://tracholar.github.io/economics-data/shibor/data.html) [svg](https://tracholar.github.io/economics-data/shibor/data.svg)
 - GDP [html](https://tracholar.github.io/economics-data/gdp/data.html) [svg](https://tracholar.github.io/economics-data/gdp/data.svg)
 - 汇率 [html](https://tracholar.github.io/economics-data/exchange-rate/data.html) [svg](https://tracholar.github.io/economics-data/exchange-rate/data2.svg)
+- 联邦基金利率[html](https://tracholar.github.io/economics-data/american-federal-funds/data.html)
+- 美债收益率[html](https://tracholar.github.io/economics-data/american-bond-interest/data.html)

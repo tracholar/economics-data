@@ -1,0 +1,3362 @@
+[
+  {
+    "id": 412,
+    "sharesNewAccount": 436448,
+    "close": 4348.54,
+    "date": 1204214400000
+  },
+  {
+    "id": 413,
+    "sharesNewAccount": 450268,
+    "close": 4300.52,
+    "date": 1204992000000
+  },
+  {
+    "id": 414,
+    "sharesNewAccount": 402137,
+    "close": 3962.67,
+    "date": 1205424000000
+  },
+  {
+    "id": 415,
+    "sharesNewAccount": 454107,
+    "close": 3796.58,
+    "date": 1206028800000
+  },
+  {
+    "id": 416,
+    "sharesNewAccount": 458160,
+    "close": 3580.15,
+    "date": 1206633600000
+  },
+  {
+    "id": 417,
+    "sharesNewAccount": 297825,
+    "close": 3446.24,
+    "date": 1207670400000
+  },
+  {
+    "id": 418,
+    "sharesNewAccount": 373190,
+    "close": 3492.89,
+    "date": 1207843200000
+  },
+  {
+    "id": 419,
+    "sharesNewAccount": 265732,
+    "close": 3094.67,
+    "date": 1208448000000
+  },
+  {
+    "id": 420,
+    "sharesNewAccount": 424196,
+    "close": 3557.75,
+    "date": 1209052800000
+  },
+  {
+    "id": 421,
+    "sharesNewAccount": 269424,
+    "close": 3693.11,
+    "date": 1209484800000
+  },
+  {
+    "id": 422,
+    "sharesNewAccount": 355235,
+    "close": 3613.49,
+    "date": 1210262400000
+  },
+  {
+    "id": 423,
+    "sharesNewAccount": 266333,
+    "close": 3624.23,
+    "date": 1210867200000
+  },
+  {
+    "id": 424,
+    "sharesNewAccount": 217494,
+    "close": 3473.09,
+    "date": 1211472000000
+  },
+  {
+    "id": 425,
+    "sharesNewAccount": 216733,
+    "close": 3433.35,
+    "date": 1212076800000
+  },
+  {
+    "id": 426,
+    "sharesNewAccount": 178366,
+    "close": 3329.67,
+    "date": 1212940800000
+  },
+  {
+    "id": 427,
+    "sharesNewAccount": 162438,
+    "close": 2868.8,
+    "date": 1213286400000
+  },
+  {
+    "id": 428,
+    "sharesNewAccount": 265331,
+    "close": 2831.74,
+    "date": 1213891200000
+  },
+  {
+    "id": 429,
+    "sharesNewAccount": 300961,
+    "close": 2748.43,
+    "date": 1214496000000
+  },
+  {
+    "id": 430,
+    "sharesNewAccount": 214065,
+    "close": 2669.89,
+    "date": 1215532800000
+  },
+  {
+    "id": 431,
+    "sharesNewAccount": 239334,
+    "close": 2856.63,
+    "date": 1215705600000
+  },
+  {
+    "id": 432,
+    "sharesNewAccount": 190540,
+    "close": 2778.37,
+    "date": 1216310400000
+  },
+  {
+    "id": 433,
+    "sharesNewAccount": 195066,
+    "close": 2865.1,
+    "date": 1216915200000
+  },
+  {
+    "id": 434,
+    "sharesNewAccount": 182487,
+    "close": 2801.82,
+    "date": 1218211200000
+  },
+  {
+    "id": 435,
+    "sharesNewAccount": 149779,
+    "close": 2605.72,
+    "date": 1218211200000
+  },
+  {
+    "id": 436,
+    "sharesNewAccount": 151125,
+    "close": 2450.61,
+    "date": 1218729600000
+  },
+  {
+    "id": 437,
+    "sharesNewAccount": 181434,
+    "close": 2405.23,
+    "date": 1219334400000
+  },
+  {
+    "id": 438,
+    "sharesNewAccount": 192645,
+    "close": 2397.37,
+    "date": 1219939200000
+  },
+  {
+    "id": 439,
+    "sharesNewAccount": 152721,
+    "close": 2202.45,
+    "date": 1220889600000
+  },
+  {
+    "id": 440,
+    "sharesNewAccount": 157516,
+    "close": 2079.67,
+    "date": 1221148800000
+  },
+  {
+    "id": 441,
+    "sharesNewAccount": 184933,
+    "close": 2075.09,
+    "date": 1221753600000
+  },
+  {
+    "id": 442,
+    "sharesNewAccount": 366378,
+    "close": 2293.78,
+    "date": 1222358400000
+  },
+  {
+    "id": 443,
+    "sharesNewAccount": 172245,
+    "close": 2000.57,
+    "date": 1223568000000
+  },
+  {
+    "id": 444,
+    "sharesNewAccount": 164949,
+    "close": 1930.65,
+    "date": 1224172800000
+  },
+  {
+    "id": 445,
+    "sharesNewAccount": 161994,
+    "close": 1839.62,
+    "date": 1224777600000
+  },
+  {
+    "id": 446,
+    "sharesNewAccount": 195959,
+    "close": 1728.79,
+    "date": 1225382400000
+  },
+  {
+    "id": 447,
+    "sharesNewAccount": 168979,
+    "close": 1747.71,
+    "date": 1226160000000
+  },
+  {
+    "id": 448,
+    "sharesNewAccount": 261846,
+    "close": 1986.44,
+    "date": 1226592000000
+  },
+  {
+    "id": 449,
+    "sharesNewAccount": 342183,
+    "close": 1969.39,
+    "date": 1227196800000
+  },
+  {
+    "id": 450,
+    "sharesNewAccount": 231026,
+    "close": 1871.16,
+    "date": 1227801600000
+  },
+  {
+    "id": 451,
+    "sharesNewAccount": 201941,
+    "close": 2018.66,
+    "date": 1228752000000
+  },
+  {
+    "id": 452,
+    "sharesNewAccount": 256537,
+    "close": 1954.21,
+    "date": 1229011200000
+  },
+  {
+    "id": 453,
+    "sharesNewAccount": 200656,
+    "close": 2018.46,
+    "date": 1229616000000
+  },
+  {
+    "id": 454,
+    "sharesNewAccount": 167016,
+    "close": 1851.52,
+    "date": 1230220800000
+  },
+  {
+    "id": 455,
+    "sharesNewAccount": 84797,
+    "close": 1820.81,
+    "date": 1230652800000
+  },
+  {
+    "id": 456,
+    "sharesNewAccount": 102975,
+    "close": 1904.86,
+    "date": 1231430400000
+  },
+  {
+    "id": 457,
+    "sharesNewAccount": 110804,
+    "close": 1954.44,
+    "date": 1232035200000
+  },
+  {
+    "id": 458,
+    "sharesNewAccount": 110399,
+    "close": 1990.66,
+    "date": 1232640000000
+  },
+  {
+    "id": 459,
+    "sharesNewAccount": 223859,
+    "close": 2181.24,
+    "date": 1234108800000
+  },
+  {
+    "id": 460,
+    "sharesNewAccount": 427460,
+    "close": 2320.79,
+    "date": 1234454400000
+  },
+  {
+    "id": 461,
+    "sharesNewAccount": 484510,
+    "close": 2261.48,
+    "date": 1235059200000
+  },
+  {
+    "id": 462,
+    "sharesNewAccount": 392017,
+    "close": 2082.85,
+    "date": 1235664000000
+  },
+  {
+    "id": 463,
+    "sharesNewAccount": 313938,
+    "close": 2193.01,
+    "date": 1236528000000
+  },
+  {
+    "id": 464,
+    "sharesNewAccount": 277168,
+    "close": 2128.85,
+    "date": 1236873600000
+  },
+  {
+    "id": 465,
+    "sharesNewAccount": 291645,
+    "close": 2281.09,
+    "date": 1237478400000
+  },
+  {
+    "id": 466,
+    "sharesNewAccount": 383195,
+    "close": 2374.44,
+    "date": 1238083200000
+  },
+  {
+    "id": 467,
+    "sharesNewAccount": 361501,
+    "close": 2419.78,
+    "date": 1239206400000
+  },
+  {
+    "id": 468,
+    "sharesNewAccount": 239132,
+    "close": 2444.23,
+    "date": 1239292800000
+  },
+  {
+    "id": 469,
+    "sharesNewAccount": 364755,
+    "close": 2503.94,
+    "date": 1239897600000
+  },
+  {
+    "id": 470,
+    "sharesNewAccount": 338719,
+    "close": 2448.59,
+    "date": 1240502400000
+  },
+  {
+    "id": 471,
+    "sharesNewAccount": 225082,
+    "close": 2477.57,
+    "date": 1241020800000
+  },
+  {
+    "id": 472,
+    "sharesNewAccount": 296972,
+    "close": 2625.65,
+    "date": 1241798400000
+  },
+  {
+    "id": 473,
+    "sharesNewAccount": 304862,
+    "close": 2645.26,
+    "date": 1242316800000
+  },
+  {
+    "id": 474,
+    "sharesNewAccount": 303588,
+    "close": 2597.6,
+    "date": 1242921600000
+  },
+  {
+    "id": 475,
+    "sharesNewAccount": 176617,
+    "close": 2632.93,
+    "date": 1243353600000
+  },
+  {
+    "id": 476,
+    "sharesNewAccount": 317509,
+    "close": 2753.89,
+    "date": 1244476800000
+  },
+  {
+    "id": 477,
+    "sharesNewAccount": 330359,
+    "close": 2743.76,
+    "date": 1244736000000
+  },
+  {
+    "id": 478,
+    "sharesNewAccount": 337531,
+    "close": 2880.49,
+    "date": 1245340800000
+  },
+  {
+    "id": 479,
+    "sharesNewAccount": 455979,
+    "close": 2928.21,
+    "date": 1245945600000
+  },
+  {
+    "id": 480,
+    "sharesNewAccount": 409814,
+    "close": 3088.37,
+    "date": 1247068800000
+  },
+  {
+    "id": 481,
+    "sharesNewAccount": 399627,
+    "close": 3113.93,
+    "date": 1247155200000
+  },
+  {
+    "id": 482,
+    "sharesNewAccount": 484799,
+    "close": 3189.74,
+    "date": 1247760000000
+  },
+  {
+    "id": 483,
+    "sharesNewAccount": 566937,
+    "close": 3372.6,
+    "date": 1248364800000
+  },
+  {
+    "id": 484,
+    "sharesNewAccount": 700617,
+    "close": 3412.06,
+    "date": 1248969600000
+  },
+  {
+    "id": 485,
+    "sharesNewAccount": 662727,
+    "close": 3260.69,
+    "date": 1249747200000
+  },
+  {
+    "id": 486,
+    "sharesNewAccount": 484185,
+    "close": 3046.97,
+    "date": 1250179200000
+  },
+  {
+    "id": 487,
+    "sharesNewAccount": 480438,
+    "close": 2960.77,
+    "date": 1250784000000
+  },
+  {
+    "id": 488,
+    "sharesNewAccount": 449267,
+    "close": 2860.69,
+    "date": 1251388800000
+  },
+  {
+    "id": 489,
+    "sharesNewAccount": 365825,
+    "close": 2861.61,
+    "date": 1252425600000
+  },
+  {
+    "id": 490,
+    "sharesNewAccount": 324856,
+    "close": 2989.79,
+    "date": 1252598400000
+  },
+  {
+    "id": 491,
+    "sharesNewAccount": 345844,
+    "close": 2962.67,
+    "date": 1253203200000
+  },
+  {
+    "id": 492,
+    "sharesNewAccount": 350382,
+    "close": 2838.84,
+    "date": 1253808000000
+  },
+  {
+    "id": 493,
+    "sharesNewAccount": 171347,
+    "close": 2779.43,
+    "date": 1254240000000
+  },
+  {
+    "id": 494,
+    "sharesNewAccount": 53046,
+    "close": 2911.72,
+    "date": 1255017600000
+  },
+  {
+    "id": 495,
+    "sharesNewAccount": 247025,
+    "close": 2976.63,
+    "date": 1255622400000
+  },
+  {
+    "id": 496,
+    "sharesNewAccount": 267157,
+    "close": 3107.85,
+    "date": 1256227200000
+  },
+  {
+    "id": 497,
+    "sharesNewAccount": 297196,
+    "close": 2995.85,
+    "date": 1256832000000
+  },
+  {
+    "id": 498,
+    "sharesNewAccount": 300702,
+    "close": 3164.04,
+    "date": 1257696000000
+  },
+  {
+    "id": 499,
+    "sharesNewAccount": 306064,
+    "close": 3187.65,
+    "date": 1258041600000
+  },
+  {
+    "id": 500,
+    "sharesNewAccount": 365539,
+    "close": 3308.35,
+    "date": 1258646400000
+  },
+  {
+    "id": 501,
+    "sharesNewAccount": 454027,
+    "close": 3096.27,
+    "date": 1259251200000
+  },
+  {
+    "id": 502,
+    "sharesNewAccount": 403082,
+    "close": 3317.04,
+    "date": 1260288000000
+  },
+  {
+    "id": 503,
+    "sharesNewAccount": 377841,
+    "close": 3247.32,
+    "date": 1260460800000
+  },
+  {
+    "id": 504,
+    "sharesNewAccount": 338292,
+    "close": 3113.89,
+    "date": 1261065600000
+  },
+  {
+    "id": 505,
+    "sharesNewAccount": 306554,
+    "close": 3141.35,
+    "date": 1261670400000
+  },
+  {
+    "id": 506,
+    "sharesNewAccount": 243883,
+    "close": 3277.14,
+    "date": 1262188800000
+  },
+  {
+    "id": 507,
+    "sharesNewAccount": 235778,
+    "close": 3196,
+    "date": 1262966400000
+  },
+  {
+    "id": 508,
+    "sharesNewAccount": 285572,
+    "close": 3224.15,
+    "date": 1263484800000
+  },
+  {
+    "id": 509,
+    "sharesNewAccount": 325576,
+    "close": 3128.59,
+    "date": 1264089600000
+  },
+  {
+    "id": 510,
+    "sharesNewAccount": 310422,
+    "close": 2989.29,
+    "date": 1264694400000
+  },
+  {
+    "id": 511,
+    "sharesNewAccount": 263282,
+    "close": 2939.4,
+    "date": 1265644800000
+  },
+  {
+    "id": 512,
+    "sharesNewAccount": 191451,
+    "close": 3018.13,
+    "date": 1265904000000
+  },
+  {
+    "id": 513,
+    "sharesNewAccount": 330875,
+    "close": 3051.94,
+    "date": 1267113600000
+  },
+  {
+    "id": 514,
+    "sharesNewAccount": 335279,
+    "close": 3031.06,
+    "date": 1268064000000
+  },
+  {
+    "id": 515,
+    "sharesNewAccount": 352203,
+    "close": 3013.41,
+    "date": 1268323200000
+  },
+  {
+    "id": 516,
+    "sharesNewAccount": 395390,
+    "close": 3067.75,
+    "date": 1268928000000
+  },
+  {
+    "id": 517,
+    "sharesNewAccount": 432897,
+    "close": 3059.72,
+    "date": 1269532800000
+  },
+  {
+    "id": 518,
+    "sharesNewAccount": 401935,
+    "close": 3157.96,
+    "date": 1270742400000
+  },
+  {
+    "id": 519,
+    "sharesNewAccount": 240951,
+    "close": 3145.35,
+    "date": 1270742400000
+  },
+  {
+    "id": 520,
+    "sharesNewAccount": 311338,
+    "close": 3130.3,
+    "date": 1271347200000
+  },
+  {
+    "id": 521,
+    "sharesNewAccount": 312621,
+    "close": 2983.54,
+    "date": 1271952000000
+  },
+  {
+    "id": 522,
+    "sharesNewAccount": 310173,
+    "close": 2870.61,
+    "date": 1272556800000
+  },
+  {
+    "id": 523,
+    "sharesNewAccount": 197716,
+    "close": 2688.38,
+    "date": 1273334400000
+  },
+  {
+    "id": 524,
+    "sharesNewAccount": 289234,
+    "close": 2696.63,
+    "date": 1273766400000
+  },
+  {
+    "id": 525,
+    "sharesNewAccount": 284258,
+    "close": 2583.52,
+    "date": 1274371200000
+  },
+  {
+    "id": 526,
+    "sharesNewAccount": 305085,
+    "close": 2655.77,
+    "date": 1274976000000
+  },
+  {
+    "id": 527,
+    "sharesNewAccount": 245237,
+    "close": 2553.59,
+    "date": 1276012800000
+  },
+  {
+    "id": 528,
+    "sharesNewAccount": 259665,
+    "close": 2569.94,
+    "date": 1276185600000
+  },
+  {
+    "id": 529,
+    "sharesNewAccount": 111948,
+    "close": 2513.22,
+    "date": 1276790400000
+  },
+  {
+    "id": 530,
+    "sharesNewAccount": 292805,
+    "close": 2552.82,
+    "date": 1277395200000
+  },
+  {
+    "id": 531,
+    "sharesNewAccount": 277833,
+    "close": 2382.9,
+    "date": 1278604800000
+  },
+  {
+    "id": 532,
+    "sharesNewAccount": 217557,
+    "close": 2470.92,
+    "date": 1278604800000
+  },
+  {
+    "id": 533,
+    "sharesNewAccount": 230496,
+    "close": 2424.27,
+    "date": 1279209600000
+  },
+  {
+    "id": 534,
+    "sharesNewAccount": 254995,
+    "close": 2572.03,
+    "date": 1279814400000
+  },
+  {
+    "id": 535,
+    "sharesNewAccount": 288339,
+    "close": 2637.5,
+    "date": 1280419200000
+  },
+  {
+    "id": 536,
+    "sharesNewAccount": 235175,
+    "close": 2658.39,
+    "date": 1281283200000
+  },
+  {
+    "id": 537,
+    "sharesNewAccount": 253154,
+    "close": 2606.7,
+    "date": 1281628800000
+  },
+  {
+    "id": 538,
+    "sharesNewAccount": 262763,
+    "close": 2642.31,
+    "date": 1282233600000
+  },
+  {
+    "id": 539,
+    "sharesNewAccount": 266805,
+    "close": 2610.74,
+    "date": 1282838400000
+  },
+  {
+    "id": 540,
+    "sharesNewAccount": 259650,
+    "close": 2655.39,
+    "date": 1283961600000
+  },
+  {
+    "id": 541,
+    "sharesNewAccount": 259557,
+    "close": 2663.21,
+    "date": 1284048000000
+  },
+  {
+    "id": 542,
+    "sharesNewAccount": 276319,
+    "close": 2598.69,
+    "date": 1284652800000
+  },
+  {
+    "id": 543,
+    "sharesNewAccount": 114055,
+    "close": 2591.55,
+    "date": 1284998400000
+  },
+  {
+    "id": 544,
+    "sharesNewAccount": 236276,
+    "close": 2655.66,
+    "date": 1285776000000
+  },
+  {
+    "id": 545,
+    "sharesNewAccount": 49927,
+    "close": 2738.74,
+    "date": 1286553600000
+  },
+  {
+    "id": 546,
+    "sharesNewAccount": 308154,
+    "close": 2971.16,
+    "date": 1287072000000
+  },
+  {
+    "id": 547,
+    "sharesNewAccount": 388971,
+    "close": 2975.04,
+    "date": 1287676800000
+  },
+  {
+    "id": 548,
+    "sharesNewAccount": 430634,
+    "close": 2978.83,
+    "date": 1288281600000
+  },
+  {
+    "id": 549,
+    "sharesNewAccount": 449905,
+    "close": 3129.5,
+    "date": 1289232000000
+  },
+  {
+    "id": 550,
+    "sharesNewAccount": 565972,
+    "close": 2985.43,
+    "date": 1289491200000
+  },
+  {
+    "id": 551,
+    "sharesNewAccount": 436396,
+    "close": 2888.57,
+    "date": 1290096000000
+  },
+  {
+    "id": 552,
+    "sharesNewAccount": 388107,
+    "close": 2871.7,
+    "date": 1290700800000
+  },
+  {
+    "id": 553,
+    "sharesNewAccount": 328582,
+    "close": 2842.43,
+    "date": 1291824000000
+  },
+  {
+    "id": 554,
+    "sharesNewAccount": 280424,
+    "close": 2841.04,
+    "date": 1291910400000
+  },
+  {
+    "id": 555,
+    "sharesNewAccount": 287217,
+    "close": 2893.74,
+    "date": 1292515200000
+  },
+  {
+    "id": 556,
+    "sharesNewAccount": 295738,
+    "close": 2835.16,
+    "date": 1293120000000
+  },
+  {
+    "id": 557,
+    "sharesNewAccount": 277822,
+    "close": 2808.08,
+    "date": 1293724800000
+  },
+  {
+    "id": 558,
+    "sharesNewAccount": 145969,
+    "close": 2838.8,
+    "date": 1294502400000
+  },
+  {
+    "id": 559,
+    "sharesNewAccount": 191737,
+    "close": 2791.34,
+    "date": 1294934400000
+  },
+  {
+    "id": 560,
+    "sharesNewAccount": 201619,
+    "close": 2715.29,
+    "date": 1295539200000
+  },
+  {
+    "id": 561,
+    "sharesNewAccount": 208402,
+    "close": 2752.75,
+    "date": 1296144000000
+  },
+  {
+    "id": 562,
+    "sharesNewAccount": 64008,
+    "close": 2798.96,
+    "date": 1297180800000
+  },
+  {
+    "id": 563,
+    "sharesNewAccount": 131704,
+    "close": 2827.33,
+    "date": 1297353600000
+  },
+  {
+    "id": 564,
+    "sharesNewAccount": 334131,
+    "close": 2899.79,
+    "date": 1297958400000
+  },
+  {
+    "id": 565,
+    "sharesNewAccount": 389348,
+    "close": 2878.57,
+    "date": 1298563200000
+  },
+  {
+    "id": 566,
+    "sharesNewAccount": 352384,
+    "close": 2942.31,
+    "date": 1299600000000
+  },
+  {
+    "id": 567,
+    "sharesNewAccount": 398249,
+    "close": 2933.8,
+    "date": 1299772800000
+  },
+  {
+    "id": 568,
+    "sharesNewAccount": 391075,
+    "close": 2906.89,
+    "date": 1300377600000
+  },
+  {
+    "id": 569,
+    "sharesNewAccount": 407906,
+    "close": 2977.81,
+    "date": 1300982400000
+  },
+  {
+    "id": 570,
+    "sharesNewAccount": 419947,
+    "close": 2967.41,
+    "date": 1302278400000
+  },
+  {
+    "id": 571,
+    "sharesNewAccount": 140239,
+    "close": 3030.02,
+    "date": 1302278400000
+  },
+  {
+    "id": 572,
+    "sharesNewAccount": 253883,
+    "close": 3050.53,
+    "date": 1302796800000
+  },
+  {
+    "id": 573,
+    "sharesNewAccount": 262342,
+    "close": 3010.52,
+    "date": 1303401600000
+  },
+  {
+    "id": 574,
+    "sharesNewAccount": 249113,
+    "close": 2911.51,
+    "date": 1304006400000
+  },
+  {
+    "id": 575,
+    "sharesNewAccount": 140827,
+    "close": 2863.89,
+    "date": 1304870400000
+  },
+  {
+    "id": 576,
+    "sharesNewAccount": 190511,
+    "close": 2871.03,
+    "date": 1305216000000
+  },
+  {
+    "id": 577,
+    "sharesNewAccount": 202902,
+    "close": 2858.46,
+    "date": 1305820800000
+  },
+  {
+    "id": 578,
+    "sharesNewAccount": 226622,
+    "close": 2709.95,
+    "date": 1306425600000
+  },
+  {
+    "id": 579,
+    "sharesNewAccount": 197383,
+    "close": 2728.02,
+    "date": 1307548800000
+  },
+  {
+    "id": 580,
+    "sharesNewAccount": 133330,
+    "close": 2705.14,
+    "date": 1307635200000
+  },
+  {
+    "id": 581,
+    "sharesNewAccount": 203439,
+    "close": 2642.82,
+    "date": 1308240000000
+  },
+  {
+    "id": 582,
+    "sharesNewAccount": 249606,
+    "close": 2746.21,
+    "date": 1308844800000
+  },
+  {
+    "id": 583,
+    "sharesNewAccount": 278665,
+    "close": 2759.36,
+    "date": 1310140800000
+  },
+  {
+    "id": 584,
+    "sharesNewAccount": 168587,
+    "close": 2797.77,
+    "date": 1310140800000
+  },
+  {
+    "id": 585,
+    "sharesNewAccount": 182382,
+    "close": 2820.17,
+    "date": 1310659200000
+  },
+  {
+    "id": 586,
+    "sharesNewAccount": 203930,
+    "close": 2770.79,
+    "date": 1311264000000
+  },
+  {
+    "id": 587,
+    "sharesNewAccount": 210845,
+    "close": 2701.73,
+    "date": 1311868800000
+  },
+  {
+    "id": 588,
+    "sharesNewAccount": 164662,
+    "close": 2626.42,
+    "date": 1312819200000
+  },
+  {
+    "id": 589,
+    "sharesNewAccount": 204547,
+    "close": 2593.17,
+    "date": 1313078400000
+  },
+  {
+    "id": 590,
+    "sharesNewAccount": 205545,
+    "close": 2534.36,
+    "date": 1313683200000
+  },
+  {
+    "id": 591,
+    "sharesNewAccount": 212398,
+    "close": 2612.19,
+    "date": 1314288000000
+  },
+  {
+    "id": 592,
+    "sharesNewAccount": 190853,
+    "close": 2528.28,
+    "date": 1315497600000
+  },
+  {
+    "id": 593,
+    "sharesNewAccount": 158579,
+    "close": 2497.75,
+    "date": 1315497600000
+  },
+  {
+    "id": 594,
+    "sharesNewAccount": 105967,
+    "close": 2484.83,
+    "date": 1315929600000
+  },
+  {
+    "id": 595,
+    "sharesNewAccount": 131578,
+    "close": 2482.34,
+    "date": 1316102400000
+  },
+  {
+    "id": 596,
+    "sharesNewAccount": 208875,
+    "close": 2433.16,
+    "date": 1316707200000
+  },
+  {
+    "id": 597,
+    "sharesNewAccount": 227464,
+    "close": 2359.22,
+    "date": 1317312000000
+  },
+  {
+    "id": 598,
+    "sharesNewAccount": 135729,
+    "close": 2431.37,
+    "date": 1318521600000
+  },
+  {
+    "id": 599,
+    "sharesNewAccount": 151490,
+    "close": 2317.28,
+    "date": 1319126400000
+  },
+  {
+    "id": 600,
+    "sharesNewAccount": 182946,
+    "close": 2473.41,
+    "date": 1319731200000
+  },
+  {
+    "id": 601,
+    "sharesNewAccount": 180154,
+    "close": 2528.29,
+    "date": 1320768000000
+  },
+  {
+    "id": 602,
+    "sharesNewAccount": 168295,
+    "close": 2481.08,
+    "date": 1320940800000
+  },
+  {
+    "id": 603,
+    "sharesNewAccount": 172047,
+    "close": 2416.56,
+    "date": 1321545600000
+  },
+  {
+    "id": 604,
+    "sharesNewAccount": 170218,
+    "close": 2380.22,
+    "date": 1322150400000
+  },
+  {
+    "id": 605,
+    "sharesNewAccount": 165368,
+    "close": 2360.66,
+    "date": 1323360000000
+  },
+  {
+    "id": 606,
+    "sharesNewAccount": 139279,
+    "close": 2315.27,
+    "date": 1323360000000
+  },
+  {
+    "id": 607,
+    "sharesNewAccount": 158725,
+    "close": 2224.84,
+    "date": 1323964800000
+  },
+  {
+    "id": 608,
+    "sharesNewAccount": 172179,
+    "close": 2204.78,
+    "date": 1324569600000
+  },
+  {
+    "id": 609,
+    "sharesNewAccount": 163054,
+    "close": 2199.42,
+    "date": 1325174400000
+  },
+  {
+    "id": 610,
+    "sharesNewAccount": 48575,
+    "close": 2163.39,
+    "date": 1326038400000
+  },
+  {
+    "id": 611,
+    "sharesNewAccount": 114461,
+    "close": 2244.58,
+    "date": 1326384000000
+  },
+  {
+    "id": 612,
+    "sharesNewAccount": 99503,
+    "close": 2319.12,
+    "date": 1326988800000
+  },
+  {
+    "id": 613,
+    "sharesNewAccount": 124412,
+    "close": 2330.4,
+    "date": 1328716800000
+  },
+  {
+    "id": 614,
+    "sharesNewAccount": 158049,
+    "close": 2351.98,
+    "date": 1328803200000
+  },
+  {
+    "id": 615,
+    "sharesNewAccount": 187748,
+    "close": 2357.18,
+    "date": 1329408000000
+  },
+  {
+    "id": 616,
+    "sharesNewAccount": 220427,
+    "close": 2439.63,
+    "date": 1330012800000
+  },
+  {
+    "id": 617,
+    "sharesNewAccount": 237445,
+    "close": 2460.69,
+    "date": 1331222400000
+  },
+  {
+    "id": 618,
+    "sharesNewAccount": 200677,
+    "close": 2439.46,
+    "date": 1331222400000
+  },
+  {
+    "id": 619,
+    "sharesNewAccount": 226526,
+    "close": 2404.74,
+    "date": 1331827200000
+  },
+  {
+    "id": 620,
+    "sharesNewAccount": 225026,
+    "close": 2349.54,
+    "date": 1332432000000
+  },
+  {
+    "id": 621,
+    "sharesNewAccount": 244512,
+    "close": 2262.79,
+    "date": 1333036800000
+  },
+  {
+    "id": 622,
+    "sharesNewAccount": 36678,
+    "close": 2306.55,
+    "date": 1333900800000
+  },
+  {
+    "id": 623,
+    "sharesNewAccount": 83436,
+    "close": 2359.16,
+    "date": 1334246400000
+  },
+  {
+    "id": 624,
+    "sharesNewAccount": 93571,
+    "close": 2406.86,
+    "date": 1334851200000
+  },
+  {
+    "id": 625,
+    "sharesNewAccount": 113177,
+    "close": 2396.32,
+    "date": 1335456000000
+  },
+  {
+    "id": 626,
+    "sharesNewAccount": 53664,
+    "close": 2452.01,
+    "date": 1336492800000
+  },
+  {
+    "id": 627,
+    "sharesNewAccount": 93547,
+    "close": 2394.98,
+    "date": 1336665600000
+  },
+  {
+    "id": 628,
+    "sharesNewAccount": 93303,
+    "close": 2344.52,
+    "date": 1337270400000
+  },
+  {
+    "id": 629,
+    "sharesNewAccount": 101940,
+    "close": 2333.55,
+    "date": 1337875200000
+  },
+  {
+    "id": 630,
+    "sharesNewAccount": 109838,
+    "close": 2373.44,
+    "date": 1339171200000
+  },
+  {
+    "id": 631,
+    "sharesNewAccount": 93110,
+    "close": 2281.45,
+    "date": 1339171200000
+  },
+  {
+    "id": 632,
+    "sharesNewAccount": 106892,
+    "close": 2306.85,
+    "date": 1339689600000
+  },
+  {
+    "id": 633,
+    "sharesNewAccount": 104324,
+    "close": 2260.88,
+    "date": 1340208000000
+  },
+  {
+    "id": 634,
+    "sharesNewAccount": 153325,
+    "close": 2225.43,
+    "date": 1340899200000
+  },
+  {
+    "id": 635,
+    "sharesNewAccount": 72231,
+    "close": 2223.58,
+    "date": 1341763200000
+  },
+  {
+    "id": 636,
+    "sharesNewAccount": 77702,
+    "close": 2185.9,
+    "date": 1342108800000
+  },
+  {
+    "id": 637,
+    "sharesNewAccount": 84319,
+    "close": 2168.64,
+    "date": 1342713600000
+  },
+  {
+    "id": 638,
+    "sharesNewAccount": 88599,
+    "close": 2128.76,
+    "date": 1343318400000
+  },
+  {
+    "id": 639,
+    "sharesNewAccount": 79559,
+    "close": 2132.8,
+    "date": 1344441600000
+  },
+  {
+    "id": 640,
+    "sharesNewAccount": 85672,
+    "close": 2168.81,
+    "date": 1344528000000
+  },
+  {
+    "id": 641,
+    "sharesNewAccount": 88312,
+    "close": 2114.89,
+    "date": 1345132800000
+  },
+  {
+    "id": 642,
+    "sharesNewAccount": 93468,
+    "close": 2092.1,
+    "date": 1345737600000
+  },
+  {
+    "id": 643,
+    "sharesNewAccount": 99851,
+    "close": 2047.52,
+    "date": 1346342400000
+  },
+  {
+    "id": 644,
+    "sharesNewAccount": 82613,
+    "close": 2127.76,
+    "date": 1347120000000
+  },
+  {
+    "id": 645,
+    "sharesNewAccount": 105967,
+    "close": 2123.85,
+    "date": 1347552000000
+  },
+  {
+    "id": 646,
+    "sharesNewAccount": 101208,
+    "close": 2026.69,
+    "date": 1348156800000
+  },
+  {
+    "id": 647,
+    "sharesNewAccount": 118206,
+    "close": 2086.17,
+    "date": 1348761600000
+  },
+  {
+    "id": 648,
+    "sharesNewAccount": 64956,
+    "close": 2104.93,
+    "date": 1349971200000
+  },
+  {
+    "id": 649,
+    "sharesNewAccount": 72512,
+    "close": 2128.3,
+    "date": 1350576000000
+  },
+  {
+    "id": 650,
+    "sharesNewAccount": 84772,
+    "close": 2066.21,
+    "date": 1351180800000
+  },
+  {
+    "id": 651,
+    "sharesNewAccount": 80357,
+    "close": 2117.05,
+    "date": 1352390400000
+  },
+  {
+    "id": 652,
+    "sharesNewAccount": 72454,
+    "close": 2069.07,
+    "date": 1352390400000
+  },
+  {
+    "id": 653,
+    "sharesNewAccount": 77327,
+    "close": 2014.73,
+    "date": 1352995200000
+  },
+  {
+    "id": 654,
+    "sharesNewAccount": 82973,
+    "close": 2027.38,
+    "date": 1353600000000
+  },
+  {
+    "id": 655,
+    "sharesNewAccount": 93933,
+    "close": 1980.12,
+    "date": 1354204800000
+  },
+  {
+    "id": 656,
+    "sharesNewAccount": 85109,
+    "close": 2061.79,
+    "date": 1354982400000
+  },
+  {
+    "id": 657,
+    "sharesNewAccount": 101743,
+    "close": 2150.63,
+    "date": 1355414400000
+  },
+  {
+    "id": 658,
+    "sharesNewAccount": 111953,
+    "close": 2153.31,
+    "date": 1356019200000
+  },
+  {
+    "id": 659,
+    "sharesNewAccount": 107679,
+    "close": 2233.25,
+    "date": 1356624000000
+  },
+  {
+    "id": 660,
+    "sharesNewAccount": 40563,
+    "close": 2276.99,
+    "date": 1357660800000
+  },
+  {
+    "id": 661,
+    "sharesNewAccount": 94502,
+    "close": 2243,
+    "date": 1357833600000
+  },
+  {
+    "id": 662,
+    "sharesNewAccount": 118156,
+    "close": 2317.07,
+    "date": 1358438400000
+  },
+  {
+    "id": 663,
+    "sharesNewAccount": 125052,
+    "close": 2291.3,
+    "date": 1359043200000
+  },
+  {
+    "id": 664,
+    "sharesNewAccount": 123161,
+    "close": 2419.02,
+    "date": 1360339200000
+  },
+  {
+    "id": 665,
+    "sharesNewAccount": 83755,
+    "close": 2432.4,
+    "date": 1360339200000
+  },
+  {
+    "id": 666,
+    "sharesNewAccount": 146850,
+    "close": 2314.16,
+    "date": 1361462400000
+  },
+  {
+    "id": 667,
+    "sharesNewAccount": 156922,
+    "close": 2359.51,
+    "date": 1362758400000
+  },
+  {
+    "id": 668,
+    "sharesNewAccount": 170863,
+    "close": 2318.61,
+    "date": 1362758400000
+  },
+  {
+    "id": 669,
+    "sharesNewAccount": 164070,
+    "close": 2278.4,
+    "date": 1363276800000
+  },
+  {
+    "id": 670,
+    "sharesNewAccount": 171237,
+    "close": 2328.28,
+    "date": 1363881600000
+  },
+  {
+    "id": 671,
+    "sharesNewAccount": 188003,
+    "close": 2236.62,
+    "date": 1364486400000
+  },
+  {
+    "id": 672,
+    "sharesNewAccount": 49265,
+    "close": 2225.29,
+    "date": 1365436800000
+  },
+  {
+    "id": 673,
+    "sharesNewAccount": 76115,
+    "close": 2206.78,
+    "date": 1365696000000
+  },
+  {
+    "id": 674,
+    "sharesNewAccount": 78081,
+    "close": 2244.64,
+    "date": 1366300800000
+  },
+  {
+    "id": 675,
+    "sharesNewAccount": 95606,
+    "close": 2177.91,
+    "date": 1366905600000
+  },
+  {
+    "id": 676,
+    "sharesNewAccount": 31971,
+    "close": 2205.5,
+    "date": 1368028800000
+  },
+  {
+    "id": 677,
+    "sharesNewAccount": 83531,
+    "close": 2246.83,
+    "date": 1368115200000
+  },
+  {
+    "id": 678,
+    "sharesNewAccount": 86527,
+    "close": 2282.87,
+    "date": 1368720000000
+  },
+  {
+    "id": 679,
+    "sharesNewAccount": 110367,
+    "close": 2288.53,
+    "date": 1369324800000
+  },
+  {
+    "id": 680,
+    "sharesNewAccount": 110863,
+    "close": 2300.6,
+    "date": 1369929600000
+  },
+  {
+    "id": 681,
+    "sharesNewAccount": 91060,
+    "close": 2210.9,
+    "date": 1370707200000
+  },
+  {
+    "id": 682,
+    "sharesNewAccount": 37818,
+    "close": 2162.04,
+    "date": 1371139200000
+  },
+  {
+    "id": 683,
+    "sharesNewAccount": 96827,
+    "close": 2073.1,
+    "date": 1371744000000
+  },
+  {
+    "id": 684,
+    "sharesNewAccount": 142354,
+    "close": 1979.21,
+    "date": 1372348800000
+  },
+  {
+    "id": 685,
+    "sharesNewAccount": 82488,
+    "close": 2007.2,
+    "date": 1373299200000
+  },
+  {
+    "id": 686,
+    "sharesNewAccount": 75204,
+    "close": 2039.49,
+    "date": 1373558400000
+  },
+  {
+    "id": 687,
+    "sharesNewAccount": 78996,
+    "close": 1992.65,
+    "date": 1374163200000
+  },
+  {
+    "id": 688,
+    "sharesNewAccount": 82278,
+    "close": 2010.85,
+    "date": 1374768000000
+  },
+  {
+    "id": 689,
+    "sharesNewAccount": 74664,
+    "close": 2029.42,
+    "date": 1375977600000
+  },
+  {
+    "id": 690,
+    "sharesNewAccount": 73803,
+    "close": 2052.24,
+    "date": 1375977600000
+  },
+  {
+    "id": 691,
+    "sharesNewAccount": 76248,
+    "close": 2068.45,
+    "date": 1376582400000
+  },
+  {
+    "id": 692,
+    "sharesNewAccount": 80736,
+    "close": 2057.46,
+    "date": 1377187200000
+  },
+  {
+    "id": 693,
+    "sharesNewAccount": 93794,
+    "close": 2098.38,
+    "date": 1377792000000
+  },
+  {
+    "id": 694,
+    "sharesNewAccount": 81919,
+    "close": 2139.99,
+    "date": 1378656000000
+  },
+  {
+    "id": 695,
+    "sharesNewAccount": 102851,
+    "close": 2236.22,
+    "date": 1379001600000
+  },
+  {
+    "id": 696,
+    "sharesNewAccount": 63905,
+    "close": 2191.85,
+    "date": 1379433600000
+  },
+  {
+    "id": 697,
+    "sharesNewAccount": 119003,
+    "close": 2160.03,
+    "date": 1380211200000
+  },
+  {
+    "id": 698,
+    "sharesNewAccount": 26134,
+    "close": 2174.67,
+    "date": 1380470400000
+  },
+  {
+    "id": 699,
+    "sharesNewAccount": 79075,
+    "close": 2228.15,
+    "date": 1381420800000
+  },
+  {
+    "id": 700,
+    "sharesNewAccount": 111467,
+    "close": 2193.78,
+    "date": 1382025600000
+  },
+  {
+    "id": 701,
+    "sharesNewAccount": 102038,
+    "close": 2132.96,
+    "date": 1382630400000
+  },
+  {
+    "id": 702,
+    "sharesNewAccount": 90419,
+    "close": 2149.56,
+    "date": 1383926400000
+  },
+  {
+    "id": 703,
+    "sharesNewAccount": 79441,
+    "close": 2106.13,
+    "date": 1383926400000
+  },
+  {
+    "id": 704,
+    "sharesNewAccount": 77968,
+    "close": 2135.83,
+    "date": 1384444800000
+  },
+  {
+    "id": 705,
+    "sharesNewAccount": 124563,
+    "close": 2196.38,
+    "date": 1385049600000
+  },
+  {
+    "id": 706,
+    "sharesNewAccount": 104782,
+    "close": 2220.5,
+    "date": 1385654400000
+  },
+  {
+    "id": 707,
+    "sharesNewAccount": 101820,
+    "close": 2237.11,
+    "date": 1386518400000
+  },
+  {
+    "id": 708,
+    "sharesNewAccount": 93465,
+    "close": 2196.07,
+    "date": 1386864000000
+  },
+  {
+    "id": 709,
+    "sharesNewAccount": 82167,
+    "close": 2084.79,
+    "date": 1387468800000
+  },
+  {
+    "id": 710,
+    "sharesNewAccount": 83955,
+    "close": 2101.25,
+    "date": 1388073600000
+  },
+  {
+    "id": 711,
+    "sharesNewAccount": 66679,
+    "close": 2083.14,
+    "date": 1389196800000
+  },
+  {
+    "id": 712,
+    "sharesNewAccount": 73233,
+    "close": 2013.3,
+    "date": 1389283200000
+  },
+  {
+    "id": 713,
+    "sharesNewAccount": 77154,
+    "close": 2004.95,
+    "date": 1389888000000
+  },
+  {
+    "id": 714,
+    "sharesNewAccount": 92565,
+    "close": 2054.39,
+    "date": 1390492800000
+  },
+  {
+    "id": 715,
+    "sharesNewAccount": 60824,
+    "close": 2033.08,
+    "date": 1391011200000
+  },
+  {
+    "id": 716,
+    "sharesNewAccount": 16073,
+    "close": 2044.5,
+    "date": 1391875200000
+  },
+  {
+    "id": 717,
+    "sharesNewAccount": 143574,
+    "close": 2115.85,
+    "date": 1392307200000
+  },
+  {
+    "id": 718,
+    "sharesNewAccount": 173147,
+    "close": 2113.69,
+    "date": 1392912000000
+  },
+  {
+    "id": 719,
+    "sharesNewAccount": 177225,
+    "close": 2056.3,
+    "date": 1393516800000
+  },
+  {
+    "id": 720,
+    "sharesNewAccount": 153817,
+    "close": 2057.91,
+    "date": 1394294400000
+  },
+  {
+    "id": 721,
+    "sharesNewAccount": 151285,
+    "close": 2004.34,
+    "date": 1394726400000
+  },
+  {
+    "id": 722,
+    "sharesNewAccount": 150122,
+    "close": 2047.62,
+    "date": 1395331200000
+  },
+  {
+    "id": 723,
+    "sharesNewAccount": 165648,
+    "close": 2041.71,
+    "date": 1395936000000
+  },
+  {
+    "id": 724,
+    "sharesNewAccount": 89538,
+    "close": 2058.83,
+    "date": 1396972800000
+  },
+  {
+    "id": 725,
+    "sharesNewAccount": 67595,
+    "close": 2130.54,
+    "date": 1397145600000
+  },
+  {
+    "id": 726,
+    "sharesNewAccount": 84769,
+    "close": 2097.75,
+    "date": 1397750400000
+  },
+  {
+    "id": 727,
+    "sharesNewAccount": 78322,
+    "close": 2036.52,
+    "date": 1398355200000
+  },
+  {
+    "id": 728,
+    "sharesNewAccount": 47887,
+    "close": 2026.36,
+    "date": 1398787200000
+  },
+  {
+    "id": 729,
+    "sharesNewAccount": 64147,
+    "close": 2011.13,
+    "date": 1399564800000
+  },
+  {
+    "id": 730,
+    "sharesNewAccount": 72200,
+    "close": 2026.5,
+    "date": 1400169600000
+  },
+  {
+    "id": 731,
+    "sharesNewAccount": 73229,
+    "close": 2034.57,
+    "date": 1400774400000
+  },
+  {
+    "id": 732,
+    "sharesNewAccount": 77741,
+    "close": 2039.21,
+    "date": 1401379200000
+  },
+  {
+    "id": 733,
+    "sharesNewAccount": 57529,
+    "close": 2029.96,
+    "date": 1402243200000
+  },
+  {
+    "id": 734,
+    "sharesNewAccount": 99762,
+    "close": 2070.71,
+    "date": 1402588800000
+  },
+  {
+    "id": 735,
+    "sharesNewAccount": 120729,
+    "close": 2026.67,
+    "date": 1403193600000
+  },
+  {
+    "id": 736,
+    "sharesNewAccount": 138923,
+    "close": 2036.51,
+    "date": 1403798400000
+  },
+  {
+    "id": 737,
+    "sharesNewAccount": 122727,
+    "close": 2059.37,
+    "date": 1404835200000
+  },
+  {
+    "id": 738,
+    "sharesNewAccount": 133060,
+    "close": 2046.96,
+    "date": 1405008000000
+  },
+  {
+    "id": 739,
+    "sharesNewAccount": 106700,
+    "close": 2059.07,
+    "date": 1405612800000
+  },
+  {
+    "id": 740,
+    "sharesNewAccount": 92873,
+    "close": 2126.61,
+    "date": 1406217600000
+  },
+  {
+    "id": 741,
+    "sharesNewAccount": 131716,
+    "close": 2185.3,
+    "date": 1407513600000
+  },
+  {
+    "id": 742,
+    "sharesNewAccount": 131853,
+    "close": 2194.42,
+    "date": 1407513600000
+  },
+  {
+    "id": 743,
+    "sharesNewAccount": 151947,
+    "close": 2226.73,
+    "date": 1408032000000
+  },
+  {
+    "id": 744,
+    "sharesNewAccount": 173719,
+    "close": 2240.81,
+    "date": 1408636800000
+  },
+  {
+    "id": 745,
+    "sharesNewAccount": 160011,
+    "close": 2217.2,
+    "date": 1409241600000
+  },
+  {
+    "id": 746,
+    "sharesNewAccount": 165138,
+    "close": 2326.43,
+    "date": 1410192000000
+  },
+  {
+    "id": 747,
+    "sharesNewAccount": 177306,
+    "close": 2331.95,
+    "date": 1410451200000
+  },
+  {
+    "id": 748,
+    "sharesNewAccount": 217051,
+    "close": 2329.45,
+    "date": 1411056000000
+  },
+  {
+    "id": 749,
+    "sharesNewAccount": 219716,
+    "close": 2347.72,
+    "date": 1411660800000
+  },
+  {
+    "id": 750,
+    "sharesNewAccount": 96222,
+    "close": 2363.87,
+    "date": 1412006400000
+  },
+  {
+    "id": 751,
+    "sharesNewAccount": 154915,
+    "close": 2374.54,
+    "date": 1412870400000
+  },
+  {
+    "id": 752,
+    "sharesNewAccount": 242984,
+    "close": 2341.18,
+    "date": 1413475200000
+  },
+  {
+    "id": 753,
+    "sharesNewAccount": 210393,
+    "close": 2302.28,
+    "date": 1414080000000
+  },
+  {
+    "id": 754,
+    "sharesNewAccount": 217601,
+    "close": 2420.18,
+    "date": 1414684800000
+  },
+  {
+    "id": 755,
+    "sharesNewAccount": 235767,
+    "close": 2418.17,
+    "date": 1415462400000
+  },
+  {
+    "id": 756,
+    "sharesNewAccount": 243607,
+    "close": 2478.82,
+    "date": 1415894400000
+  },
+  {
+    "id": 757,
+    "sharesNewAccount": 234065,
+    "close": 2486.79,
+    "date": 1416499200000
+  },
+  {
+    "id": 758,
+    "sharesNewAccount": 370071,
+    "close": 2682.83,
+    "date": 1417104000000
+  },
+  {
+    "id": 759,
+    "sharesNewAccount": 598261,
+    "close": 2937.65,
+    "date": 1418054400000
+  },
+  {
+    "id": 760,
+    "sharesNewAccount": 892244,
+    "close": 2938.17,
+    "date": 1418313600000
+  },
+  {
+    "id": 761,
+    "sharesNewAccount": 632514,
+    "close": 3108.6,
+    "date": 1418918400000
+  },
+  {
+    "id": 762,
+    "sharesNewAccount": 547606,
+    "close": 3157.6,
+    "date": 1419523200000
+  },
+  {
+    "id": 763,
+    "sharesNewAccount": 310814,
+    "close": 3234.68,
+    "date": 1419955200000
+  },
+  {
+    "id": 764,
+    "sharesNewAccount": 550829,
+    "close": 3285.41,
+    "date": 1420732800000
+  },
+  {
+    "id": 765,
+    "sharesNewAccount": 446836,
+    "close": 3376.5,
+    "date": 1421337600000
+  },
+  {
+    "id": 766,
+    "sharesNewAccount": 501656,
+    "close": 3351.76,
+    "date": 1421942400000
+  },
+  {
+    "id": 767,
+    "sharesNewAccount": 474873,
+    "close": 3210.36,
+    "date": 1422547200000
+  },
+  {
+    "id": 768,
+    "sharesNewAccount": 384838,
+    "close": 3075.91,
+    "date": 1423411200000
+  },
+  {
+    "id": 769,
+    "sharesNewAccount": 339225,
+    "close": 3203.83,
+    "date": 1423756800000
+  },
+  {
+    "id": 770,
+    "sharesNewAccount": 122840,
+    "close": 3246.91,
+    "date": 1424102400000
+  },
+  {
+    "id": 771,
+    "sharesNewAccount": 271938,
+    "close": 3310.3,
+    "date": 1424966400000
+  },
+  {
+    "id": 772,
+    "sharesNewAccount": 662614,
+    "close": 3241.19,
+    "date": 1425830400000
+  },
+  {
+    "id": 773,
+    "sharesNewAccount": 721544,
+    "close": 3372.91,
+    "date": 1426176000000
+  },
+  {
+    "id": 774,
+    "sharesNewAccount": 1139227,
+    "close": 3617.32,
+    "date": 1426780800000
+  },
+  {
+    "id": 775,
+    "sharesNewAccount": 1669269,
+    "close": 3691.1,
+    "date": 1427385600000
+  },
+  {
+    "id": 776,
+    "sharesNewAccount": 1562600,
+    "close": 3863.93,
+    "date": 1428508800000
+  },
+  {
+    "id": 777,
+    "sharesNewAccount": 1684118,
+    "close": 4034.31,
+    "date": 1428595200000
+  },
+  {
+    "id": 778,
+    "sharesNewAccount": 3284058,
+    "close": 4287.3,
+    "date": 1429200000000
+  },
+  {
+    "id": 779,
+    "sharesNewAccount": 4138596,
+    "close": 4393.69,
+    "date": 1429804800000
+  },
+  {
+    "id": 780,
+    "sharesNewAccount": 2954190,
+    "close": 4441.65,
+    "date": 1430323200000
+  },
+  {
+    "id": 781,
+    "sharesNewAccount": 820700,
+    "close": 4205.92,
+    "date": 1431100800000
+  },
+  {
+    "id": 782,
+    "sharesNewAccount": 797000,
+    "close": 4308.69,
+    "date": 1431619200000
+  },
+  {
+    "id": 783,
+    "sharesNewAccount": 896600,
+    "close": 4657.6,
+    "date": 1432224000000
+  },
+  {
+    "id": 784,
+    "sharesNewAccount": 1644400,
+    "close": 4611.74,
+    "date": 1432828800000
+  },
+  {
+    "id": 785,
+    "sharesNewAccount": 1499100,
+    "close": 5023.1,
+    "date": 1433779200000
+  },
+  {
+    "id": 786,
+    "sharesNewAccount": 1413500,
+    "close": 5166.35,
+    "date": 1434038400000
+  },
+  {
+    "id": 787,
+    "sharesNewAccount": 991900,
+    "close": 4478.36,
+    "date": 1434643200000
+  },
+  {
+    "id": 788,
+    "sharesNewAccount": 499200,
+    "close": 4192.87,
+    "date": 1435248000000
+  },
+  {
+    "id": 789,
+    "sharesNewAccount": 512900,
+    "close": 3686.92,
+    "date": 1436371200000
+  },
+  {
+    "id": 790,
+    "sharesNewAccount": 513000,
+    "close": 3877.8,
+    "date": 1436457600000
+  },
+  {
+    "id": 791,
+    "sharesNewAccount": 529300,
+    "close": 3957.35,
+    "date": 1437062400000
+  },
+  {
+    "id": 792,
+    "sharesNewAccount": 391500,
+    "close": 4070.91,
+    "date": 1437667200000
+  },
+  {
+    "id": 793,
+    "sharesNewAccount": 340500,
+    "close": 3663.73,
+    "date": 1438272000000
+  },
+  {
+    "id": 794,
+    "sharesNewAccount": 265400,
+    "close": 3744.2,
+    "date": 1439049600000
+  },
+  {
+    "id": 795,
+    "sharesNewAccount": 321600,
+    "close": 3965.33,
+    "date": 1439481600000
+  },
+  {
+    "id": 796,
+    "sharesNewAccount": 329700,
+    "close": 3507.74,
+    "date": 1440086400000
+  },
+  {
+    "id": 797,
+    "sharesNewAccount": 351200,
+    "close": 3232.35,
+    "date": 1440691200000
+  },
+  {
+    "id": 798,
+    "sharesNewAccount": 199300,
+    "close": 3160.17,
+    "date": 1441728000000
+  },
+  {
+    "id": 799,
+    "sharesNewAccount": 296300,
+    "close": 3200.23,
+    "date": 1441900800000
+  },
+  {
+    "id": 800,
+    "sharesNewAccount": 281000,
+    "close": 3097.92,
+    "date": 1442505600000
+  },
+  {
+    "id": 801,
+    "sharesNewAccount": 268400,
+    "close": 3092.35,
+    "date": 1443110400000
+  },
+  {
+    "id": 802,
+    "sharesNewAccount": 138800,
+    "close": 3052.78,
+    "date": 1443542400000
+  },
+  {
+    "id": 803,
+    "sharesNewAccount": 103600,
+    "close": 3183.15,
+    "date": 1444320000000
+  },
+  {
+    "id": 804,
+    "sharesNewAccount": 295500,
+    "close": 3391.35,
+    "date": 1444924800000
+  },
+  {
+    "id": 805,
+    "sharesNewAccount": 330300,
+    "close": 3412.43,
+    "date": 1445529600000
+  },
+  {
+    "id": 806,
+    "sharesNewAccount": 337400,
+    "close": 3382.56,
+    "date": 1446134400000
+  },
+  {
+    "id": 807,
+    "sharesNewAccount": 300200,
+    "close": 3590.03,
+    "date": 1446998400000
+  },
+  {
+    "id": 808,
+    "sharesNewAccount": 353600,
+    "close": 3580.84,
+    "date": 1447344000000
+  },
+  {
+    "id": 809,
+    "sharesNewAccount": 359400,
+    "close": 3630.5,
+    "date": 1447948800000
+  },
+  {
+    "id": 810,
+    "sharesNewAccount": 361500,
+    "close": 3436.3,
+    "date": 1448553600000
+  },
+  {
+    "id": 811,
+    "sharesNewAccount": 339800,
+    "close": 3524.99,
+    "date": 1449590400000
+  },
+  {
+    "id": 812,
+    "sharesNewAccount": 349800,
+    "close": 3434.58,
+    "date": 1449763200000
+  },
+  {
+    "id": 813,
+    "sharesNewAccount": 325400,
+    "close": 3578.96,
+    "date": 1450368000000
+  },
+  {
+    "id": 814,
+    "sharesNewAccount": 305900,
+    "close": 3627.91,
+    "date": 1450972800000
+  },
+  {
+    "id": 815,
+    "sharesNewAccount": 193700,
+    "close": 3539.18,
+    "date": 1451491200000
+  },
+  {
+    "id": 816,
+    "sharesNewAccount": 300400,
+    "close": 3186.41,
+    "date": 1452268800000
+  },
+  {
+    "id": 817,
+    "sharesNewAccount": 332100,
+    "close": 2900.97,
+    "date": 1452787200000
+  },
+  {
+    "id": 818,
+    "sharesNewAccount": 363300,
+    "close": 2916.56,
+    "date": 1453392000000
+  },
+  {
+    "id": 819,
+    "sharesNewAccount": 354900,
+    "close": 2737.6,
+    "date": 1453996800000
+  },
+  {
+    "id": 820,
+    "sharesNewAccount": 262300,
+    "close": 2763.49,
+    "date": 1454601600000
+  },
+  {
+    "id": 821,
+    "sharesNewAccount": 356200,
+    "close": 2860.02,
+    "date": 1455811200000
+  },
+  {
+    "id": 822,
+    "sharesNewAccount": 423600,
+    "close": 2767.21,
+    "date": 1456416000000
+  },
+  {
+    "id": 823,
+    "sharesNewAccount": 461400,
+    "close": 2874.15,
+    "date": 1457020800000
+  },
+  {
+    "id": 824,
+    "sharesNewAccount": 474900,
+    "close": 2810.31,
+    "date": 1457625600000
+  },
+  {
+    "id": 826,
+    "sharesNewAccount": 527000,
+    "close": 2955.15,
+    "date": 1458230400000
+  },
+  {
+    "id": 828,
+    "sharesNewAccount": 535000,
+    "close": 2979.43,
+    "date": 1458835200000
+  },
+  {
+    "id": 829,
+    "sharesNewAccount": 466800,
+    "close": 3009.53,
+    "date": 1459440000000
+  },
+  {
+    "id": 831,
+    "sharesNewAccount": 292600,
+    "close": 2984.96,
+    "date": 1460044800000
+  },
+  {
+    "id": 833,
+    "sharesNewAccount": 393500,
+    "close": 3078.12,
+    "date": 1460649600000
+  },
+  {
+    "id": 835,
+    "sharesNewAccount": 397700,
+    "close": 2959.24,
+    "date": 1461254400000
+  },
+  {
+    "id": 836,
+    "sharesNewAccount": 406900,
+    "close": 2938.32,
+    "date": 1461859200000
+  },
+  {
+    "id": 837,
+    "sharesNewAccount": 262100,
+    "close": 2913.25,
+    "date": 1462464000000
+  },
+  {
+    "id": 839,
+    "sharesNewAccount": 329900,
+    "close": 2827.11,
+    "date": 1463068800000
+  },
+  {
+    "id": 841,
+    "sharesNewAccount": 340100,
+    "close": 2825.48,
+    "date": 1463673600000
+  },
+  {
+    "id": 843,
+    "sharesNewAccount": 337100,
+    "close": 2821.05,
+    "date": 1464278400000
+  },
+  {
+    "id": 845,
+    "sharesNewAccount": 326599,
+    "close": 2938.68,
+    "date": 1464883200000
+  },
+  {
+    "id": 847,
+    "sharesNewAccount": 205799,
+    "close": 2927.16,
+    "date": 1465315200000
+  },
+  {
+    "id": 848,
+    "sharesNewAccount": 379900,
+    "close": 2885.11,
+    "date": 1466092800000
+  },
+  {
+    "id": 850,
+    "sharesNewAccount": 357200,
+    "close": 2854.29,
+    "date": 1466697600000
+  },
+  {
+    "id": 852,
+    "sharesNewAccount": 353900,
+    "close": 2932.48,
+    "date": 1467302400000
+  },
+  {
+    "id": 854,
+    "sharesNewAccount": 295200,
+    "close": 2988.09,
+    "date": 1467907200000
+  },
+  {
+    "id": 856,
+    "sharesNewAccount": 316300,
+    "close": 3054.3,
+    "date": 1468512000000
+  },
+  {
+    "id": 857,
+    "sharesNewAccount": 320600,
+    "close": 3012.82,
+    "date": 1469116800000
+  },
+  {
+    "id": 859,
+    "sharesNewAccount": 323800,
+    "close": 2979.34,
+    "date": 1469721600000
+  },
+  {
+    "id": 860,
+    "sharesNewAccount": 304500,
+    "close": 2976.7,
+    "date": 1470326400000
+  },
+  {
+    "id": 862,
+    "sharesNewAccount": 304500,
+    "close": 3050.67,
+    "date": 1470931200000
+  },
+  {
+    "id": 864,
+    "sharesNewAccount": 405000,
+    "close": 3108.1,
+    "date": 1471536000000
+  },
+  {
+    "id": 865,
+    "sharesNewAccount": 634100,
+    "close": 3070.31,
+    "date": 1472140800000
+  },
+  {
+    "id": 867,
+    "sharesNewAccount": 634100,
+    "close": 3067.35,
+    "date": 1472745600000
+  },
+  {
+    "id": 869,
+    "sharesNewAccount": 453300,
+    "close": 3078.85,
+    "date": 1473350400000
+  },
+  {
+    "id": 871,
+    "sharesNewAccount": 316600,
+    "close": 3002.85,
+    "date": 1473782400000
+  },
+  {
+    "id": 872,
+    "sharesNewAccount": 510400,
+    "close": 3033.9,
+    "date": 1474560000000
+  },
+  {
+    "id": 874,
+    "sharesNewAccount": 422200,
+    "close": 3004.7,
+    "date": 1475164800000
+  },
+  {
+    "id": 876,
+    "sharesNewAccount": 392200,
+    "close": 3063.81,
+    "date": 1476374400000
+  },
+  {
+    "id": 878,
+    "sharesNewAccount": 403600,
+    "close": 3090.94,
+    "date": 1476979200000
+  },
+  {
+    "id": 880,
+    "sharesNewAccount": 403600,
+    "close": 3104.27,
+    "date": 1477584000000
+  },
+  {
+    "id": 882,
+    "sharesNewAccount": 370800,
+    "close": 3125.32,
+    "date": 1478188800000
+  },
+  {
+    "id": 884,
+    "sharesNewAccount": 386700,
+    "close": 3196.04,
+    "date": 1478793600000
+  },
+  {
+    "id": 886,
+    "sharesNewAccount": 426400,
+    "close": 3192.86,
+    "date": 1479398400000
+  },
+  {
+    "id": 888,
+    "sharesNewAccount": 394799,
+    "close": 3261.94,
+    "date": 1480003200000
+  },
+  {
+    "id": 890,
+    "sharesNewAccount": 401800,
+    "close": 3243.84,
+    "date": 1480608000000
+  },
+  {
+    "id": 892,
+    "sharesNewAccount": 348700,
+    "close": 3232.88,
+    "date": 1481212800000
+  },
+  {
+    "id": 894,
+    "sharesNewAccount": 343400,
+    "close": 3122.98,
+    "date": 1481817600000
+  },
+  {
+    "id": 896,
+    "sharesNewAccount": 312600,
+    "close": 3110.15,
+    "date": 1482422400000
+  },
+  {
+    "id": 898,
+    "sharesNewAccount": 267700,
+    "close": 3103.64,
+    "date": 1483027200000
+  },
+  {
+    "id": 899,
+    "sharesNewAccount": 204500,
+    "close": 3154.32,
+    "date": 1483632000000
+  },
+  {
+    "id": 901,
+    "sharesNewAccount": 283700,
+    "close": 3112.76,
+    "date": 1484236800000
+  },
+  {
+    "id": 903,
+    "sharesNewAccount": 292500,
+    "close": 3123.14,
+    "date": 1484841600000
+  },
+  {
+    "id": 904,
+    "sharesNewAccount": 219200,
+    "close": 3140.17,
+    "date": 1486051200000
+  },
+  {
+    "id": 906,
+    "sharesNewAccount": 480700,
+    "close": 3253.43,
+    "date": 1487865600000
+  },
+  {
+    "id": 908,
+    "sharesNewAccount": 506200,
+    "close": 3218.31,
+    "date": 1488470400000
+  },
+  {
+    "id": 910,
+    "sharesNewAccount": 513800,
+    "close": 3212.76,
+    "date": 1489075200000
+  },
+  {
+    "id": 911,
+    "sharesNewAccount": 558200,
+    "close": 3237.45,
+    "date": 1489680000000
+  },
+  {
+    "id": 913,
+    "sharesNewAccount": 519900,
+    "close": 3269.45,
+    "date": 1490284800000
+  },
+  {
+    "id": 915,
+    "sharesNewAccount": 470900,
+    "close": 3222.51,
+    "date": 1490889600000
+  },
+  {
+    "id": 917,
+    "sharesNewAccount": 228500,
+    "close": 3286.62,
+    "date": 1491494400000
+  },
+  {
+    "id": 919,
+    "sharesNewAccount": 352600,
+    "close": 3246.07,
+    "date": 1492099200000
+  },
+  {
+    "id": 921,
+    "sharesNewAccount": 347500,
+    "close": 3173.15,
+    "date": 1492704000000
+  },
+  {
+    "id": 923,
+    "sharesNewAccount": 354600,
+    "close": 3154.66,
+    "date": 1493308800000
+  },
+  {
+    "id": 924,
+    "sharesNewAccount": 236200,
+    "close": 3103.04,
+    "date": 1493913600000
+  },
+  {
+    "id": 925,
+    "sharesNewAccount": 314600,
+    "close": 3083.51,
+    "date": 1494518400000
+  },
+  {
+    "id": 926,
+    "sharesNewAccount": 308300,
+    "close": 3090.63,
+    "date": 1495123200000
+  },
+  {
+    "id": 928,
+    "sharesNewAccount": 298800,
+    "close": 3110.06,
+    "date": 1495728000000
+  },
+  {
+    "id": 930,
+    "sharesNewAccount": 180000,
+    "close": 3105.54,
+    "date": 1496332800000
+  },
+  {
+    "id": 931,
+    "sharesNewAccount": 295000,
+    "close": 3158.4,
+    "date": 1496937600000
+  },
+  {
+    "id": 932,
+    "sharesNewAccount": 327200,
+    "close": 3123.17,
+    "date": 1497542400000
+  },
+  {
+    "id": 933,
+    "sharesNewAccount": 313100,
+    "close": 3157.87,
+    "date": 1498147200000
+  },
+  {
+    "id": 935,
+    "sharesNewAccount": 301200,
+    "close": 3192.43,
+    "date": 1498752000000
+  },
+  {
+    "id": 937,
+    "sharesNewAccount": 228700,
+    "close": 3217.96,
+    "date": 1499356800000
+  },
+  {
+    "id": 939,
+    "sharesNewAccount": 292700,
+    "close": 3222.42,
+    "date": 1499961600000
+  },
+  {
+    "id": 940,
+    "sharesNewAccount": 298300,
+    "close": 3237.98,
+    "date": 1500566400000
+  },
+  {
+    "id": 941,
+    "sharesNewAccount": 306500,
+    "close": 3253.24,
+    "date": 1501171200000
+  },
+  {
+    "id": 942,
+    "sharesNewAccount": 306500,
+    "close": 3273.03,
+    "date": 1501430400000
+  },
+  {
+    "id": 943,
+    "sharesNewAccount": 320600,
+    "close": 3262.08,
+    "date": 1501776000000
+  },
+  {
+    "id": 944,
+    "sharesNewAccount": 327100,
+    "close": 3208.54,
+    "date": 1502380800000
+  },
+  {
+    "id": 945,
+    "sharesNewAccount": 333400,
+    "close": 3268.72,
+    "date": 1502985600000
+  },
+  {
+    "id": 946,
+    "sharesNewAccount": 327200,
+    "close": 3331.52,
+    "date": 1503590400000
+  },
+  {
+    "id": 947,
+    "sharesNewAccount": 339500,
+    "close": 3367.12,
+    "date": 1504195200000
+  },
+  {
+    "id": 948,
+    "sharesNewAccount": 328900,
+    "close": 3365.24,
+    "date": 1504800000000
+  },
+  {
+    "id": 949,
+    "sharesNewAccount": 337400,
+    "close": 3353.62,
+    "date": 1505404800000
+  },
+  {
+    "id": 951,
+    "sharesNewAccount": 318500,
+    "close": 3352.53,
+    "date": 1506009600000
+  },
+  {
+    "id": 952,
+    "sharesNewAccount": 293700,
+    "close": 3348.94,
+    "date": 1506614400000
+  },
+  {
+    "id": 953,
+    "sharesNewAccount": 280800,
+    "close": 3390.52,
+    "date": 1507824000000
+  },
+  {
+    "id": 954,
+    "sharesNewAccount": 272500,
+    "close": 3378.65,
+    "date": 1508428800000
+  },
+  {
+    "id": 955,
+    "sharesNewAccount": 280600,
+    "close": 3416.81,
+    "date": 1509033600000
+  },
+  {
+    "id": 956,
+    "sharesNewAccount": 285600,
+    "close": 3371.74,
+    "date": 1509638400000
+  },
+  {
+    "id": 957,
+    "sharesNewAccount": 290800,
+    "close": 3432.67,
+    "date": 1510243200000
+  },
+  {
+    "id": 958,
+    "sharesNewAccount": 297600,
+    "close": 3382.91,
+    "date": 1510848000000
+  },
+  {
+    "id": 959,
+    "sharesNewAccount": 267900,
+    "close": 3353.82,
+    "date": 1511452800000
+  },
+  {
+    "id": 961,
+    "sharesNewAccount": 249700,
+    "close": 3317.62,
+    "date": 1512057600000
+  },
+  {
+    "id": 962,
+    "sharesNewAccount": 240900,
+    "close": 3289.99,
+    "date": 1512662400000
+  },
+  {
+    "id": 963,
+    "sharesNewAccount": 238000,
+    "close": 3266.14,
+    "date": 1513267200000
+  },
+  {
+    "id": 965,
+    "sharesNewAccount": 228700,
+    "close": 3297.06,
+    "date": 1513872000000
+  },
+  {
+    "id": 966,
+    "sharesNewAccount": 224200,
+    "close": 3307.17,
+    "date": 1514476800000
+  },
+  {
+    "id": 967,
+    "sharesNewAccount": 178400,
+    "close": 3391.75,
+    "date": 1515081600000
+  },
+  {
+    "id": 968,
+    "sharesNewAccount": 266400,
+    "close": 3428.94,
+    "date": 1515686400000
+  },
+  {
+    "id": 969,
+    "sharesNewAccount": 304100,
+    "close": 3487.86,
+    "date": 1516291200000
+  },
+  {
+    "id": 970,
+    "sharesNewAccount": 300700,
+    "close": 3558.13,
+    "date": 1516896000000
+  },
+  {
+    "id": 971,
+    "sharesNewAccount": 274700,
+    "close": 3462.08,
+    "date": 1517500800000
+  },
+  {
+    "id": 972,
+    "sharesNewAccount": 250200,
+    "close": 3129.85,
+    "date": 1518105600000
+  },
+  {
+    "id": 974,
+    "sharesNewAccount": 114100,
+    "close": 3199.16,
+    "date": 1518537600000
+  },
+  {
+    "id": 975,
+    "sharesNewAccount": 307700,
+    "close": 3254.53,
+    "date": 1519920000000
+  },
+  {
+    "id": 976,
+    "sharesNewAccount": 333100,
+    "close": 3307.17,
+    "date": 1520524800000
+  },
+  {
+    "id": 977,
+    "sharesNewAccount": 383000,
+    "close": 3269.88,
+    "date": 1521129600000
+  },
+  {
+    "id": 978,
+    "sharesNewAccount": 378200,
+    "close": 3152.76,
+    "date": 1521734400000
+  },
+  {
+    "id": 979,
+    "sharesNewAccount": 354500,
+    "close": 3168.9,
+    "date": 1522339200000
+  },
+  {
+    "id": 980,
+    "sharesNewAccount": 157800,
+    "close": 3131.11,
+    "date": 1522771200000
+  },
+  {
+    "id": 981,
+    "sharesNewAccount": 289200,
+    "close": 3159.05,
+    "date": 1523548800000
+  },
+  {
+    "id": 982,
+    "sharesNewAccount": 263700,
+    "close": 3071.54,
+    "date": 1524153600000
+  },
+  {
+    "id": 983,
+    "sharesNewAccount": 258200,
+    "close": 3082.23,
+    "date": 1524758400000
+  },
+  {
+    "id": 984,
+    "sharesNewAccount": 157600,
+    "close": 3091.03,
+    "date": 1525363200000
+  },
+  {
+    "id": 985,
+    "sharesNewAccount": 241800,
+    "close": 3163.26,
+    "date": 1525968000000
+  },
+  {
+    "id": 986,
+    "sharesNewAccount": 246100,
+    "close": 3193.3,
+    "date": 1526572800000
+  },
+  {
+    "id": 987,
+    "sharesNewAccount": 251600,
+    "close": 3141.3,
+    "date": 1527177600000
+  },
+  {
+    "id": 988,
+    "sharesNewAccount": 247100,
+    "close": 3075.14,
+    "date": 1527782400000
+  },
+  {
+    "id": 989,
+    "sharesNewAccount": 246900,
+    "close": 3067.15,
+    "date": 1528387200000
+  },
+  {
+    "id": 990,
+    "sharesNewAccount": 266500,
+    "close": 3021.9,
+    "date": 1528992000000
+  },
+  {
+    "id": 991,
+    "sharesNewAccount": 213200,
+    "close": 2889.76,
+    "date": 1529596800000
+  },
+  {
+    "id": 992,
+    "sharesNewAccount": 263000,
+    "close": 2847.42,
+    "date": 1530201600000
+  },
+  {
+    "id": 993,
+    "sharesNewAccount": 234000,
+    "close": 2747.23,
+    "date": 1530806400000
+  },
+  {
+    "id": 994,
+    "sharesNewAccount": 254500,
+    "close": 2831.18,
+    "date": 1531411200000
+  },
+  {
+    "id": 995,
+    "sharesNewAccount": 249100,
+    "close": 2829.27,
+    "date": 1532016000000
+  },
+  {
+    "id": 996,
+    "sharesNewAccount": 247100,
+    "close": 2873.59,
+    "date": 1532620800000
+  },
+  {
+    "id": 997,
+    "sharesNewAccount": 242200,
+    "close": 2740.44,
+    "date": 1533225600000
+  },
+  {
+    "id": 998,
+    "sharesNewAccount": 239600,
+    "close": 2795.31,
+    "date": 1533830400000
+  },
+  {
+    "id": 999,
+    "sharesNewAccount": 230400,
+    "close": 2668.97,
+    "date": 1534435200000
+  },
+  {
+    "id": 1000,
+    "sharesNewAccount": 231200,
+    "close": 2729.43,
+    "date": 1535040000000
+  },
+  {
+    "id": 1001,
+    "sharesNewAccount": 240600,
+    "close": 2725.25,
+    "date": 1535644800000
+  },
+  {
+    "id": 1002,
+    "sharesNewAccount": 235799,
+    "close": 2702.3,
+    "date": 1536249600000
+  },
+  {
+    "id": 1003,
+    "sharesNewAccount": 240799,
+    "close": 2681.64,
+    "date": 1536854400000
+  },
+  {
+    "id": 1004,
+    "sharesNewAccount": 232399,
+    "close": 2797.48,
+    "date": 1537459200000
+  },
+  {
+    "id": 1005,
+    "sharesNewAccount": 200900,
+    "close": 2821.35,
+    "date": 1538064000000
+  },
+  {
+    "id": 1006,
+    "sharesNewAccount": 253000,
+    "close": 2606.91,
+    "date": 1539273600000
+  },
+  {
+    "id": 1007,
+    "sharesNewAccount": 241300,
+    "close": 2550.47,
+    "date": 1539878400000
+  },
+  {
+    "id": 1008,
+    "sharesNewAccount": 260000,
+    "close": 2598.85,
+    "date": 1540483200000
+  },
+  {
+    "id": 1009,
+    "sharesNewAccount": 239700,
+    "close": 2676.48,
+    "date": 1541088000000
+  },
+  {
+    "id": 1010,
+    "sharesNewAccount": 241100,
+    "close": 2598.87,
+    "date": 1541692800000
+  },
+  {
+    "id": 1011,
+    "sharesNewAccount": 245700,
+    "close": 2679.11,
+    "date": 1542297600000
+  },
+  {
+    "id": 1012,
+    "sharesNewAccount": 241600,
+    "close": 2579.48,
+    "date": 1542902400000
+  },
+  {
+    "id": 1013,
+    "sharesNewAccount": 235600,
+    "close": 2588.19,
+    "date": 1543507200000
+  },
+  {
+    "id": 1014,
+    "sharesNewAccount": 222800,
+    "close": 2605.89,
+    "date": 1544112000000
+  },
+  {
+    "id": 1015,
+    "sharesNewAccount": 212100,
+    "close": 2593.74,
+    "date": 1544716800000
+  },
+  {
+    "id": 1016,
+    "sharesNewAccount": 210400,
+    "close": 2516.25,
+    "date": 1545321600000
+  },
+  {
+    "id": 1017,
+    "sharesNewAccount": 208100,
+    "close": 2493.9,
+    "date": 1545926400000
+  },
+  {
+    "id": 1018,
+    "sharesNewAccount": 120000,
+    "close": 2514.87,
+    "date": 1546531200000
+  },
+  {
+    "id": 1019,
+    "sharesNewAccount": 236300,
+    "close": 2553.83,
+    "date": 1547136000000
+  },
+  {
+    "id": 1020,
+    "sharesNewAccount": 252600,
+    "close": 2596.01,
+    "date": 1547740800000
+  },
+  {
+    "id": 1021,
+    "sharesNewAccount": 249700,
+    "close": 2601.72,
+    "date": 1548345600000
+  },
+  {
+    "id": 1022,
+    "sharesNewAccount": 189100,
+    "close": 2618.23,
+    "date": 1548950400000
+  },
+  {
+    "id": 1023,
+    "sharesNewAccount": 206600,
+    "close": 2682.39,
+    "date": 1550160000000
+  },
+  {
+    "id": 1024,
+    "sharesNewAccount": 316100,
+    "close": 2804.23,
+    "date": 1550764800000
+  }
+]

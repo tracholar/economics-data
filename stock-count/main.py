@@ -18,9 +18,11 @@ df = pd.read_csv('data.csv')
 ## 大图
 df_plt = df.sort_values('date').set_index('date')
 ax = (df_plt['sharesNewAccount']/10000).plot(figsize=(12, 6), grid='on')
+plt.ylabel(u'万人')
+
 df_plt['close'].plot(ax=ax,secondary_y=True, style='r', figsize=(12, 6), grid='on')
 
-ax.legend([ax.get_lines()[0], ax.right_ax.get_lines()[0]],[u'新增开户数(万人)', u'指数'])
+ax.legend([ax.get_lines()[0], ax.right_ax.get_lines()[0]],[u'新增开户数', u'上证指数'])
 f = plt.gcf()
 f.savefig('data.svg')
 plt.close()
@@ -28,9 +30,11 @@ plt.close()
 ## 近期图
 df_plt = df.sort_values('date')[-52:].set_index('date')
 ax = (df_plt['sharesNewAccount']/10000).plot(figsize=(12, 6), grid='on', style='.-')
+plt.ylabel(u'万人')
+
 df_plt['close'].plot(ax=ax,secondary_y=True, style='r.-', figsize=(12, 6), grid='on')
 
-ax.legend([ax.get_lines()[0], ax.right_ax.get_lines()[0]],[u'新增开户数(万人)', u'指数'])
+ax.legend([ax.get_lines()[0], ax.right_ax.get_lines()[0]],[u'新增开户数', u'上证指数'])
 f = plt.gcf()
 f.savefig('data2.svg')
 

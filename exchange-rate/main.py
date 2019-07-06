@@ -26,6 +26,10 @@ df[['收盘']][-365:].plot(grid='on', figsize = (12,6))
 f = plt.gcf()
 f.savefig('data2.svg')
 
+df[['收盘']][-90:].plot(grid='on', figsize = (12,6), style='.-')
+f = plt.gcf()
+f.savefig('data3.svg')
+
 def md_table(df):
     return df.to_html(index=False).encode('utf-8', 'ignore')
 
@@ -36,7 +40,7 @@ fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><
          'th, td {border: 1px solid;}' \
          '</style>')
 
-
+fp.write(open('data3.svg').read())
 fp.write(open('data2.svg').read())
 fp.write(open('data.svg').read())
 fp.write( md_table(df0) )

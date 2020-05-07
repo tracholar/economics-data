@@ -1,0 +1,20 @@
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var rid = Math.random();
+    var eid = 'chart-main-' + rid;
+    eid = eid.replace('.', '-');
+
+    document.write('<div id="' + eid + '" style="width: 95%;height:500px;"></div>')
+
+    var myChart = echarts.init(document.getElementById(eid));
+
+    // 指定图表的配置项和数据
+    var option = {option};
+
+    console.log(option);
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>

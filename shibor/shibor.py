@@ -13,6 +13,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import glob
+from common import Template, df_to_dict
+from common.echart_fig import *
 
 names = [
     '日期'
@@ -27,23 +29,24 @@ df = [pd.read_csv(f, sep=r'\s+', skiprows=4, header=None, na_values=['---'], nam
 df = pd.concat(df)
 df = df.sort_values(by='日期').set_index('日期')
 
-df[['隔夜-5日均值', '1W-5日均值', '1M-5日均值', '1Y-5日均值']].plot(grid='on', figsize = (12,6))
-fig = plt.gcf()
-fig.savefig('data.svg')
+df_plot = df[['隔夜-5日均值', '1W-5日均值', '2W-5日均值', '1M-5日均值', '1Y-5日均值']]
 
-df[['隔夜-5日均值', '1W-5日均值', '2W-5日均值', '1M-5日均值', '1Y-5日均值']][-365:].plot(grid='on', figsize = (12,6))
-fig = plt.gcf()
-fig.savefig('data_short.svg')
 
 
 html = df.reset_index().sort_values(by='日期', ascending=False).to_html(index=False)
 
+tpl = Template()
 with open('data.html', 'w') as fp:
-    fp.write(open('data_short.svg').read())
-    fp.write(open('data.svg').read())
-    fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><style ' \
-             'type="text/css">' \
-             'table {border-collapse: collapse;}' \
-             'th, td {border: 1px solid;}' \
-             '</style>')
-    fp.write(html.encode('utf-8', 'ignore'))
+    tpl.set_title('Shibor')
+    tpl.add_fig(Line(df_to_dict(df_plot),
+                 xlabel='日期',
+                 xtype='category',
+                 ylabel='利率(%)',
+                 title="Shibor利率"))
+
+    tpl.add_section(html.encode('utf-8', 'ignore'))
+
+
+
+
+    fp.write(tpl.render())

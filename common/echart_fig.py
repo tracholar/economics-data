@@ -9,13 +9,6 @@ class EchartFig(object):
         """
         raise NotImplementedError()
 
-    def set_title(self, title):
-        self._title = title
-
-    def set_size(self, width, height):
-        self._width = width
-        self._height = height
-
 
 class Line(EchartFig):
 

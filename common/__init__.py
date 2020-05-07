@@ -5,7 +5,8 @@ import json
 from echart_fig import *
 
 class Template():
-    def __init__(self):
+    def __init__(self, title):
+        self.set_title(title)
         self._template = open(os.path.dirname(__file__) + '/template.html').read()
         self._line = open(os.path.dirname(__file__) + '/plot.html').read()
 

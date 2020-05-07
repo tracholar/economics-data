@@ -35,9 +35,8 @@ df_plot = df[['隔夜-5日均值', '1W-5日均值', '2W-5日均值', '1M-5日均
 
 html = df.reset_index().sort_values(by='日期', ascending=False).to_html(index=False)
 
-tpl = Template()
+tpl = Template("Shibor")
 with open('data.html', 'w') as fp:
-    tpl.set_title('Shibor')
     tpl.add_fig(Line(df_to_dict(df_plot),
                  xlabel='日期',
                  xtype='category',

@@ -7,6 +7,8 @@ API : http://data.eastmoney.com/DataCenter_V3/Chart/cjsj/China.ashx?isxml=false&
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from common import Template, df_to_dict
+from common.echart_fig import *
 
 
 def p2f(x):
@@ -18,27 +20,22 @@ df = pd.read_csv('data.csv', sep='\t', converters={'M2同比' : p2f, 'M1同比' 
 df = df.sort_values(by='月份')
 df = df.set_index('月份')
 
-df[['M2数量（亿元）', 'M1数量（亿元）', 'M0数量（亿元）']].plot(grid='on', figsize = (12,6))
-f = plt.gcf()
-f.savefig('data.svg')
+df1 = df[['M2数量（亿元）', 'M1数量（亿元）', 'M0数量（亿元）']]
 
 
-df[['M2同比', 'M1同比', 'M0同比']].plot(grid='on', figsize = (12,6))
-f = plt.gcf()
-f.savefig('data_r.svg')
+
+df2 = df[['M2同比', 'M1同比', 'M0同比']]
+
 
 def md_table(df):
     return df.to_html(index=False).encode('utf-8', 'ignore')
 
+tpl = Template("货币供应量")
+tpl.add_fig(Line(df_to_dict(df1), xlabel="月份", ylabel="数量", title="货币供应量"))
+tpl.add_fig(Line(df_to_dict(df2), xlabel="月份", ylabel="增长率", title="货币供应量增长率", zoom_start=0))
+tpl.add_section(md_table(df.reset_index().sort_values(by='月份', ascending=False)) )
+
+
 fp = open('data.html', 'w')
-fp.write('<meta content="text/html; charset=utf-8" http-equiv="content-type" /><style ' \
-         'type="text/css">' \
-         'table {border-collapse: collapse;}' \
-         'th, td {border: 1px solid;}' \
-         '</style>')
-
-
-fp.write(open('data.svg').read())
-fp.write(open('data_r.svg').read())
-fp.write( md_table(df.reset_index().sort_values(by='月份', ascending=False)) )
+fp.write(tpl.render())
 fp.close()

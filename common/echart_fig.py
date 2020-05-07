@@ -12,7 +12,9 @@ class EchartFig(object):
 
 class Line(EchartFig):
 
-    def __init__(self, data, xlabel='x', ylabel='y', xtype='category', title=None):
+    def __init__(self, data, xlabel='x', ylabel='y',
+                 xtype='category', title=None,
+                 zoom_start=90, zoom_end=100):
         line = {
             "xAxis" : {
                 "name" : xlabel,
@@ -32,7 +34,8 @@ class Line(EchartFig):
             },
             "dataZoom":[{
                 "type": 'slider',
-                "start": 90
+                "start": zoom_start,
+                "end" : zoom_end
             }]
         }
 
@@ -46,6 +49,10 @@ class Line(EchartFig):
 
         else:
             raise Exception(u"data type must be dict, {}", data)
+
+    def ylim(self, min, max):
+        self._options['yAxis']['min'] = min
+        self._options['yAxis']['max'] = max
 
     def get_options(self):
         return self._options

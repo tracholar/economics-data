@@ -23,11 +23,11 @@ def strategy_test(stock_ratio = 0.5):
         Y.append(value)
 
         # 不调仓
-        if r['date'][:7] == month:
+        if (n+1) % 30 != 0:
             continue
 
         # 调仓
-        month = r['date'][:7]
+        print '调仓...'
         zq_value = value * (1-stock_ratio)
         stock_value = value * stock_ratio
         zq_num = zq_value/r['value_zq']
@@ -40,10 +40,13 @@ def strategy_test(stock_ratio = 0.5):
 
 outdf = strategy_test(0.0).set_index('date')
 for r in [0.15,0.3,0.5,0.7,1.0]:
-    outdf = outdf.join(strategy_test(r).set_index('date'), how='inner', rsuffix='_{}'.format(int(r*100)))
+    outdf = outdf.join(strategy_test(r).set_index('date'), how='inner', rsuffix='_{}%'.format(int(r*100)))
 
 outdf[::5].to_csv('zq_hs_00_100.csv',sep='\t')
 
-outdf[::5].plot(figsize=(16,8))
+outdf[::5].plot(figsize=(12,6))
 fig = plt.gcf()
+plt.legend([u'纯债', u'股票15%',u'股票30%',u'股票50%',u'股票70%',u'纯股票'])
+plt.ylabel(u'累积净值')
+plt.xlabel(u'时间')
 fig.savefig('zq_hs_00_100.svg')

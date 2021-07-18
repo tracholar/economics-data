@@ -136,5 +136,6 @@ def norm(df):
     cols = df.ix[-1].sort_values(ascending=False).index
     return df[cols]
 
+
 if __name__ == '__main__':
     print(get_fund_acc_net_value_by_time())

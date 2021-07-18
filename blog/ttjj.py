@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 
-def read_acc_value(f):
+def read_acc_value(f) :
     data = open(f).read()
     accValues = json.loads(data)['accValues']
     X = []
@@ -19,3 +19,4 @@ def read_acc_value(f):
         'value': Y
     })
     return df
+

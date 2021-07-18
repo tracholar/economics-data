@@ -9,16 +9,12 @@ from os.path import dirname
 __ROOT__ = dirname(__file__)
 
 df = get_fund_acc_net_value_by_time()
-dt = df.index >= '2017-01-01'
-df = df[dt]
-df.dropna(axis=1, inplace=True)
-print(df.tail(5))
-df = df/df.ix[0]
-cols = df.ix[-1].sort_values(ascending=False).index
+cols = [u'招商产业债券A', u'易方达裕丰回报债券', u'易方达稳健收益债券B',
+        u'嘉实超短债债券C', u'易方达高等级信用债债券A']
 df = df[cols]
 
 df.plot(figsize=(10,5))
 plt.grid()
 plt.title(u'基金累积净值')
 fig = plt.gcf()
-fig.savefig(__ROOT__ + '/image/acc_net_value.svg')
+fig.savefig(__ROOT__ + '/image/bound_acc_net_value.svg')

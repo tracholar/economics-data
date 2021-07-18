@@ -2,6 +2,7 @@
 import json
 import pandas as pd
 import time
+import matplotlib.pyplot as plt
 
 
 def read_acc_value(f) :
@@ -20,3 +21,27 @@ def read_acc_value(f) :
     })
     return df
 
+
+def plot(name, title=""):
+    file_name = name + '.json'
+
+    df = read_acc_value(file_name)
+    assert isinstance(df, pd.DataFrame)
+
+    fig = plt.figure()
+    df = df.set_index('date')
+    df.plot(figsize=(12,6))
+    plt.legend([])
+    plt.title(title)
+    plt.savefig('output/{}.svg'.format(name))
+
+    print(df.describe())
+    max_value = df.value.max()
+    max_return = df.value.values[-1] / max_value - 1
+
+    print("""
+    最大值: {}
+    最大回撤: {:.1f}%
+    """.format(max_value, max_return*100))
+
+    return df

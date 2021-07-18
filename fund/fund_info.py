@@ -46,10 +46,10 @@ _fund_list = [
         'id': '110011',
         'name': u'易方达中小盘混合'
     }, {
-        'id' : '005827',
+        'id': '005827',
         'name': u'易方达蓝筹精选'
     }, {
-        'id' : '513050',
+        'id': '513050',
         'name': u'易方达中概互联50ETF'
     }, {
         'id': '217022',
@@ -110,11 +110,13 @@ def get_fund_acc_net_value():
     df['total_net_value'] = np.array(df['total_net_value'])
     return df
 
+
 def _timestamp_to_date(t):
     import time
     t = time.localtime(t)
     x = time.strftime("%Y-%m-%d", t)
     return x
+
 
 def get_fund_acc_net_value_by_time():
     df = pd.read_csv(DATA_DIR + '/fund.csv')
@@ -122,7 +124,7 @@ def get_fund_acc_net_value_by_time():
     for i, row in df.iterrows():
         name = row['name']
         value = np.array(json.loads(row['total_net_value']))
-        date = map(_timestamp_to_date, value[:, 0]/1000)
+        date = map(_timestamp_to_date, value[:, 0] / 1000)
         net_value = value[:, 1]
         series = pd.Series(net_value, index=date)
         acc_net_value[name] = series
@@ -132,10 +134,31 @@ def get_fund_acc_net_value_by_time():
 
 def norm(df):
     df.dropna(inplace=True)
-    df = df/df.ix[0]
+    df = df / df.ix[0]
     cols = df.ix[-1].sort_values(ascending=False).index
     return df[cols]
 
 
+def max_drowdown(x):
+    x = list(x)
+    if len(x) <= 1:
+        return 0
+    mid = len(x) // 2
+    md_left = max_drowdown(x[:mid])
+    md_right = max_drowdown(x[mid:])
+
+    max_left = max(x[:mid])
+    min_right = min(x[mid:])
+    md_curr = 1.0 * (max_left - min_right) / max_left
+
+    return max(md_left, md_right, md_curr)
+
+
 if __name__ == '__main__':
     print(get_fund_acc_net_value_by_time())
+
+    x = [1,2,3,4,5,6,7,8,9,10,8,7,4,5,3]
+    print(max_drowdown(x))
+    import matplotlib.pyplot as plt
+    plt.plot(x)
+    plt.show()

@@ -96,6 +96,63 @@ _fund_list = [
     }, {
         'id': '000147',
         'name': u'易方达高等级信用债债券A'
+    }, {
+        'id': '008763',
+        'name': u'天弘越南市场股票(QDII)A'
+    }, {
+        'id': '513000',
+        'name': u'易方达日经225ETF'
+    }, {
+        'id': '164824',
+        'name': u'工银印度基金人民币'
+    }, {
+        'id': '513030',
+        'name': u'华安德国30(DAX)ETF'
+    }, {
+        'id': '118002',
+        'name': u'易方达标普消费品指数A'
+    }, {
+        'id': '004877',
+        'name': u'汇添富全球医疗混合人民币'
+    }, {
+        'id': '159807',
+        'name': u'易方达中证科技50ETF'
+    }, {
+        'id': '588080',
+        'name': u'易方达上证科创板50成份ETF'
+    }, {
+        'id': '159781',
+        'name': u'易方达中证科创创业50ETF'
+    }, {
+        'id': '009265',
+        'name': u'易方达消费精选股票'
+    }, {
+        'id': '163406',
+        'name': u'兴全合润'
+    }, {
+        'id': '501311',
+        'name': u'嘉实港股通新经济指数A'
+    }, {
+        'id': '001832',
+        'name': u'易方达瑞恒灵活配置混合'
+    }, {
+        'id': '007412',
+        'name': u'景顺长城绩优成长混合'
+    }, {
+        'id': '513010',
+        'name': u'易方达恒生科技'
+    }, {
+        'id': '010736',
+        'name': u'易方达沪深300指数增强A'
+    }, {
+        'id': '110037',
+        'name': u'易方达纯债债券A'
+    }, {
+        'id': '110038',
+        'name': u'易方达纯债债券C'
+    }, {
+        'id': '000148',
+        'name': u'易方达高等级信用债债券C'
     }
 ]
 
@@ -132,9 +189,29 @@ def get_fund_acc_net_value_by_time():
     return acc_net_value
 
 
+def get_fund_acc_return_by_time():
+    df = pd.read_csv(DATA_DIR + '/fund.csv')
+    acc_net_value = []
+    for i, row in df.iterrows():
+        name = row['name']
+        value = np.array(json.loads(row['acc_return']))
+        date = map(_timestamp_to_date, value[:, 0] / 1000)
+        net_value = value[:, 1]/100.0 + 1
+        series = pd.Series(net_value, index=date, name=name)
+        acc_net_value.append(series)
+
+    return pd.concat(acc_net_value, axis=1)
+
+
 def norm(df):
     df.dropna(inplace=True)
     df = df / df.ix[0]
+    cols = df.ix[-1].sort_values(ascending=False).index
+    return df[cols]
+
+
+def sort_by_fund_last_value(df):
+    assert isinstance(df, pd.DataFrame)
     cols = df.ix[-1].sort_values(ascending=False).index
     return df[cols]
 
@@ -154,11 +231,29 @@ def max_drowdown(x):
     return max(md_left, md_right, md_curr)
 
 
+def corr_coef(x, y):
+    assert x.size == y.size
+    x = x - np.mean(x)
+    y = y - np.mean(y)
+
+    return np.sum(x * y) / np.sqrt(np.sum(x * x)) / np.sqrt(np.sum(y * y))
+
+
+def fund_corr_coef(x, y, diff=1):
+    tmp = pd.DataFrame({
+        'x': x,
+        'y': y
+    }).dropna().diff(diff).dropna()
+
+    coef = corr_coef(tmp.x.values, tmp.y.values)
+    return coef
+
 if __name__ == '__main__':
     print(get_fund_acc_net_value_by_time())
 
-    x = [1,2,3,4,5,6,7,8,9,10,8,7,4,5,3]
+    x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 8, 7, 4, 5, 3]
     print(max_drowdown(x))
     import matplotlib.pyplot as plt
+
     plt.plot(x)
     plt.show()

@@ -12,18 +12,23 @@ api = TTFundApi()
 fid_list = []
 fname_list = []
 total_net_value = []
+acc_return = []
 for fund in FUND_LIST:
     fid, fname = fund['id'], fund['name']
 
     print(fid, fname)
     fid_list.append(fid)
     fname_list.append(fname)
-    total_net_value.append(api.find_fund_data(fid).acc_net_value)
+
+    fund_data = api.find_fund_data(fid)
+    total_net_value.append(fund_data.acc_net_value)
+    acc_return.append(fund_data.acc_return)
 
 df = pd.DataFrame({
     'id' : fid_list,
     'name' : fname_list,
-    'total_net_value' : total_net_value
+    'total_net_value' : total_net_value,
+    'acc_return' : acc_return
 })
 
 print(df.head())

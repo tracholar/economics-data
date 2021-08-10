@@ -1,26 +1,22 @@
 # coding:utf-8
-# 易方达纯债 vs 易方达高等级信用债券
+# 消费行业基金对比
 from __future__ import print_function
 import pandas as pd
 import matplotlib.pyplot as plt
-from fund.fund_info import get_fund_acc_net_value_by_time, norm, fund_corr_coef, max_drowdown
+from fund.fund_info import get_fund_acc_net_value_by_time, norm, fund_corr_coef
 from os.path import dirname
 
 __ROOT__ = dirname(__file__)
 
-fund = ['招商产业债券A', '招商双债增强债券(LOF)C']
+fund = ['易方达沪深300医药ETF', '中欧医疗健康混合A']
 df = get_fund_acc_net_value_by_time()
-df = norm(df[fund].dropna()[1000:])
-
-for fi in fund:
-    print(fi, max_drowdown(df[fi]))
-
+df = norm(df[fund].dropna()[100:])
 
 df.plot(figsize=(10,5))
 plt.grid()
 plt.title(u'基金累积净值')
 fig = plt.gcf()
-fig.savefig(__ROOT__ + '/image/yifangda_chunzhai_vs_gaodengji.svg')
+fig.savefig(__ROOT__ + '/image/medicine_industry.svg')
 
 x = range(1,100)
 y = []
@@ -32,5 +28,6 @@ plt.plot(x, y)
 plt.grid()
 plt.xlabel('diff days')
 plt.ylabel('correlation')
-fig.savefig(__ROOT__ + '/image/yifangda_chunzhai_vs_gaodengji_corr.svg')
+plt.title(' vs '.join(fund).decode('utf-8'))
+fig.savefig(__ROOT__ + '/image/medicine_industry_corr.svg')
 print(zip(x, y))

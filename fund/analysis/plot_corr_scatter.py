@@ -10,11 +10,13 @@ from os.path import dirname
 
 __ROOT__ = dirname(__file__)
 
+fund = ['易方达高等级信用债债券A', '嘉实超短债债券C', '招商产业债券A', '易方达裕丰回报债券']
 df = pd.read_csv(__ROOT__ + '/data/fund_corr.csv', index_col=0)
-print(df)
 
-x = '中欧医疗健康混合A'
-y = '汇添富中证主要消费ETF'
+x = '嘉实超短债债券C'
+y = '华泰柏瑞沪深300ETF'
+df = df.loc[fund]
+print(df)
 # df[y] = np.sign(df[y]) * np.sqrt(np.abs(df[y]))
 ax = df.plot(kind='scatter', x=x, y=y, figsize=(10,7))
 for name, row in df.iterrows():

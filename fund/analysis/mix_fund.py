@@ -1,5 +1,5 @@
 # coding:utf-8
-# 易方达纯债 vs 易方达高等级信用债券
+# 科技板块基金对比
 from __future__ import print_function
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,19 +8,18 @@ from os.path import dirname
 
 __ROOT__ = dirname(__file__)
 
-fund = ['鹏扬利泽债券C', '嘉实超短债债券C']
+fund = ['易方达安心回馈混合', '广发稳健增长混合A']
 df = get_fund_acc_net_value_by_time()
 df = norm(df[fund].dropna()[30:])
 
 for fi in fund:
     print(fi, max_drawdown(df[fi]))
 
-
 df.plot(figsize=(10,5))
 plt.grid()
 plt.title(u'基金累积净值')
 fig = plt.gcf()
-fig.savefig(__ROOT__ + '/image/yifangda_chunzhai_vs_gaodengji.svg')
+fig.savefig(__ROOT__ + '/image/mix_fund.svg')
 
 x = range(1,100)
 y = []
@@ -32,5 +31,5 @@ plt.plot(x, y)
 plt.grid()
 plt.xlabel('diff days')
 plt.ylabel('correlation')
-fig.savefig(__ROOT__ + '/image/yifangda_chunzhai_vs_gaodengji_corr.svg')
-print(zip(x, y))
+plt.title(' vs '.join(fund).decode('utf-8'))
+fig.savefig(__ROOT__ + '/image/mix_fund_corr.svg')

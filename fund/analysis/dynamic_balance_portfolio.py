@@ -5,7 +5,7 @@ from __future__ import print_function
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from fund.fund_info import get_fund_acc_net_value_by_time, norm, max_drowdown
+from fund.fund_info import get_fund_acc_net_value_by_time, norm, max_drawdown
 from os.path import dirname
 
 __ROOT__ = dirname(__file__)
@@ -37,4 +37,4 @@ plt.gcf().savefig(__ROOT__ + '/image/find_fund_porfolio.svg')
 
 df.to_csv(__ROOT__ + '/data/find_fund_porfolio.csv')
 
-print(df.apply(max_drowdown, axis=0))
+print(df.apply(max_drawdown, axis=0))

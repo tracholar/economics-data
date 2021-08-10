@@ -171,6 +171,9 @@ _fund_list = [
     }, {
         'id': '001868',
         'name': u'招商产业债券C'
+    }, {
+        'id': '004615',
+        'name': u'鹏扬利泽债券C'
     }
 ]
 
@@ -234,13 +237,15 @@ def sort_by_fund_last_value(df):
     return df[cols]
 
 
-def max_drowdown(x):
+def max_drawdown(x):
+    if isinstance(x, pd.Series):
+        x = x.dropna()
     x = list(x)
     if len(x) <= 1:
         return 0
     mid = len(x) // 2
-    md_left = max_drowdown(x[:mid])
-    md_right = max_drowdown(x[mid:])
+    md_left = max_drawdown(x[:mid])
+    md_right = max_drawdown(x[mid:])
 
     max_left = max(x[:mid])
     min_right = min(x[mid:])
@@ -248,6 +253,22 @@ def max_drowdown(x):
 
     return max(md_left, md_right, md_curr)
 
+
+def parse_time(s):
+    return pd.datetime.strptime(s, '%Y-%m-%d')
+
+def growth_ratio(y):
+    assert isinstance(y, pd.Series)
+    y = y.dropna()
+    dy = y.iloc[-1]/y.iloc[0]
+    dt = parse_time(y.index[-1]) - parse_time(y.index[0])
+    dt_years = dt.days/365.0
+
+    sign = np.sign(dy)
+    dy = np.abs(dy)
+    r = np.exp((np.log(dy))/dt_years) - 1
+    r = r * sign
+    return r
 
 def corr_coef(x, y):
     assert x.size == y.size
@@ -270,7 +291,7 @@ if __name__ == '__main__':
     print(get_fund_acc_net_value_by_time())
 
     x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 8, 7, 4, 5, 3]
-    print(max_drowdown(x))
+    print(max_drawdown(x))
     import matplotlib.pyplot as plt
 
     plt.plot(x)

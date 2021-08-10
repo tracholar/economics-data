@@ -10,7 +10,8 @@ from os.path import dirname
 
 __ROOT__ = dirname(__file__)
 
-fund = ['易方达高等级信用债债券A', '嘉实超短债债券C', '招商产业债券A', '易方达裕丰回报债券']
+fund = ['易方达高等级信用债债券A', '嘉实超短债债券C', '招商产业债券A',
+        '易方达裕丰回报债券','鹏扬利泽债券C', '招商双债增强债券(LOF)C']
 df = pd.read_csv(__ROOT__ + '/data/fund_corr.csv', index_col=0)
 
 x = '嘉实超短债债券C'

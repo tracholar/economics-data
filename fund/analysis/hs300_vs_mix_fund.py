@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from fund.fund_info import get_fund_acc_return_by_time, \
-    norm, sort_by_fund_last_value, max_drowdown
+    norm, sort_by_fund_last_value, max_drawdown
 from os.path import dirname
 
 __ROOT__ = dirname(__file__)

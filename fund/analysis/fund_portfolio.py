@@ -4,7 +4,7 @@ from __future__ import print_function
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from fund.fund_info import get_fund_acc_net_value_by_time, norm, max_drowdown
+from fund.fund_info import get_fund_acc_net_value_by_time, norm, max_drawdown
 from os.path import dirname
 
 __ROOT__ = dirname(__file__)
@@ -38,7 +38,7 @@ df[cols].plot(figsize=(10, 5))
 plt.gcf().savefig(__ROOT__ + '/image/fund_porfolio.svg')
 
 assert isinstance(df, pd.DataFrame)
-max_drowdown_df = df.apply(max_drowdown, axis=0).sort_values(ascending=False)
+max_drowdown_df = df.apply(max_drawdown, axis=0).sort_values(ascending=False)
 max_drowdown_df.to_excel(__ROOT__  + '/data/fund_porfolio_max_drowdown.xlsx')
 plt.figure()
 max_drowdown_df.plot(kind='bar', figsize=(10, 5))

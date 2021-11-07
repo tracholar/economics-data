@@ -11,7 +11,7 @@ from os.path import dirname
 __ROOT__ = dirname(__file__)
 df = get_fund_acc_net_value_by_time()
 
-target_fund = ['国泰纳斯达克100ETF', '华安创业板50ETF']
+target_fund = ['国泰纳斯达克100ETF', '汇添富中证主要消费ETF', '中欧医疗健康混合A']
 df = df[target_fund].dropna()
 
 
@@ -25,6 +25,7 @@ def gen_weight(topk, size=len(target_fund)):
 df = norm(df)
 for n in range(2, len(target_fund) + 1):
     weight = gen_weight(n)
+    print('组合{}: {}, w: {}'.format(n - 1, target_fund, weight))
     df['组合{}'.format(n - 1)] = np.sum(df[target_fund] * weight, axis=1)
 
 print(df.head())
